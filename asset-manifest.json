@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/Portafolio/static/js/main.3f5f8a5d.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.3f5f8a5d.chunk.js.map",
-    "runtime-main.js": "/Portafolio/static/js/runtime-main.2cb45177.js",
-    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.2cb45177.js.map",
-    "static/js/2.2596bd55.chunk.js": "/Portafolio/static/js/2.2596bd55.chunk.js",
-    "static/js/2.2596bd55.chunk.js.map": "/Portafolio/static/js/2.2596bd55.chunk.js.map",
-    "static/js/3.30524944.chunk.js": "/Portafolio/static/js/3.30524944.chunk.js",
-    "static/js/3.30524944.chunk.js.map": "/Portafolio/static/js/3.30524944.chunk.js.map",
+    "main.css": "/Portafolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Portafolio/static/js/main.3fb412cb.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.3fb412cb.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.74af8daa.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.74af8daa.js.map",
+    "static/js/2.dc6b5b58.chunk.js": "/Portafolio/static/js/2.dc6b5b58.chunk.js",
+    "static/js/2.dc6b5b58.chunk.js.map": "/Portafolio/static/js/2.dc6b5b58.chunk.js.map",
+    "static/js/3.e4a444ac.chunk.js": "/Portafolio/static/js/3.e4a444ac.chunk.js",
+    "static/js/3.e4a444ac.chunk.js.map": "/Portafolio/static/js/3.e4a444ac.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/Portafolio/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.2596bd55.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.2596bd55.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Portafolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/Portafolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.dc6b5b58.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.dc6b5b58.chunk.js.LICENSE.txt",
+    "static/media/CV_Rinel_Iñiguez_Sosa.bf0a902b.pdf": "/Portafolio/static/media/CV_Rinel_Iñiguez_Sosa.bf0a902b.pdf",
+    "static/media/rinel.49bf00c4.jpeg": "/Portafolio/static/media/rinel.49bf00c4.jpeg",
+    "static/media/tazajs.8ade1634.png": "/Portafolio/static/media/tazajs.8ade1634.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cb45177.js",
-    "static/js/2.2596bd55.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.3f5f8a5d.chunk.js"
+    "static/js/runtime-main.74af8daa.js",
+    "static/js/2.dc6b5b58.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.3fb412cb.chunk.js"
   ]
 }
