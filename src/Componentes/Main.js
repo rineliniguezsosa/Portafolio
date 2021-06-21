@@ -121,8 +121,8 @@ function Main() {
                <Typography className={classes.name}>Rinel</Typography>
                 <Enlaces seccion="Servicios" enlace="#servicios"></Enlaces>
                 <Enlaces seccion="Proyectos" enlace="#proyectos"></Enlaces>
-                <Enlaces seccion="Contactame" enlace="#contactame"></Enlaces>
-                <Enlacescv seccion="DESCARGAR CURRICULUM"></Enlacescv>
+                <Enlaces seccion="Contáctame" enlace="#contactame"></Enlaces>
+                <Enlacescv seccion="DESCARGAR CURRICULO"></Enlacescv>
             </Grid>
 
             <Box className={classes.contenedor2}>
@@ -131,7 +131,7 @@ function Main() {
                     <Box className={classes.size}><Typography className={classes.dev}>DESARROLLADOR WEB</Typography></Box>
                     <Box className={classes.size}>
                         <Enlaces2 donde="Portafolio" enlace="#proyectos"></Enlaces2>
-                        <Enlaces2 donde="Contactame" enlace="#contactame"></Enlaces2>
+                        <Enlaces2 donde="Contáctame" enlace="#contactame"></Enlaces2>
                     </Box>
                 </Box>
             </Box>

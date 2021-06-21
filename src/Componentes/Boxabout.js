@@ -115,7 +115,7 @@ function Boxabout() {
     const classes = useStyles();
     return (
         <Grid className={classes.contenedor}>
-            <Titulo title="Sobre Mi"></Titulo>
+            <Titulo title="Sobre Mí"></Titulo>
             <Box className={classes.box1}>
                 <Box className={classes.box2}>
                     <Cardme></Cardme>
@@ -123,7 +123,7 @@ function Boxabout() {
                         <Box className={classes.descripcion}>
                             <ThemeProvider theme={theme}>
                                 <Box className={classes.size}>
-                                    <Typography className={classes.palabras}>Hola a todos mi nombre es Rinel iñiguez sosa y soy desarrollador web, soy egresado del instituto tecnologico de merida en la carrera de ingenieria en sistemas computacionales, me interesa mucho el desarrollo de aplicaciones web y me gustaria aprender y aplicar por igual inteligencia artificial, personalmente me considero como una  persona seria, amigable y perserverante
+                                    <Typography className={classes.palabras}>Hola a todos mi nombre es Rinel iñiguez sosa y soy desarrollador web, soy egresado del instituto tecnológico de mérida en la carrera de ingeniería en sistemas computacionales, me interesa mucho el desarrollo de aplicaciones web y me gustaría aprender y aplicar por igual inteligencia artificial, personalmente me considero como una  persona sería, amigable y perserverante
                                     </Typography>
                                 </Box>
                                 <Box className={classes.size2}>

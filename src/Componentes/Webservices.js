@@ -41,7 +41,7 @@ function Webservices() {
 
                 <Servicios 
                 descripcion="Desarrollo progresivo de la aplicación" 
-                titulo="Desarollo movil" 
+                titulo="Desarollo móvil" 
                 icon={<AiOutlineMobile></AiOutlineMobile>}>
                 </Servicios>
 

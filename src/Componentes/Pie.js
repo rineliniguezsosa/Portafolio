@@ -65,7 +65,7 @@ function Pie() {
                 
                 <Avatar className={classes.white}><GoLocation></GoLocation></Avatar>
                 <Box>
-                   <Typography className={classes.contacto}>Merida,yucatán</Typography>
+                   <Typography className={classes.contacto}>Mérida,yucatán</Typography>
                 </Box> 
             </ThemeProvider>
         </Grid>

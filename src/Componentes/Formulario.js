@@ -105,7 +105,7 @@ function Formulario() {
     const classes = useStyles();
     return (
         <Box  className={classes.caja}>
-            <Titulo title="Contactame"></Titulo>
+            <Titulo title="Contáctame"></Titulo>
             <Box className={classes.cajaformulario}>
                 <ThemeProvider theme={theme}>
                         <Box className={classes.formulario}>

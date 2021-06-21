@@ -138,7 +138,7 @@ function Informacion() {
                         </CardActionArea>
                         <CardActions className={classes.cajabtn}>
                             <Link underline="none" href={contenido.enlacegit} size="small" className={classes.btncolor}>
-                               <Typography className={classes.subtitlebtn}>Ver Codigo</Typography> <RiGithubLine></RiGithubLine>
+                               <Typography className={classes.subtitlebtn}>Ver Código</Typography> <RiGithubLine></RiGithubLine>
                             </Link>
                         </CardActions>
                     </Card>
