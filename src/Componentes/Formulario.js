@@ -113,7 +113,7 @@ function Formulario() {
                                <Box className={classes.size}><Typography className={classes.texto}>Nombre</Typography></Box>
                                <input className={classes.inputs} required name="nombre" type="text"></input>
                                <Box className={classes.size}><Typography className={classes.texto}>Email</Typography></Box>
-                               <input className={classes.inputs} required name="email" type="text"></input>
+                               <input className={classes.inputs} required name="email" type="email"></input>
                                <Box className={classes.size}><Typography className={classes.texto}>Mensaje</Typography></Box>
                                <input className={classes.textarea} required name="mensaje" type="text-area"></input>
                                <button className={classes.btnenviar} type="submit"><Typography className={classes.texto}>Enviar mensaje</Typography></button>
