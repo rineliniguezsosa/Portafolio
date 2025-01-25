@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ButtonMuiProps {
     component:string,
     location:string,
@@ -5,5 +7,6 @@ export interface ButtonMuiProps {
     variant:'outlined',
     size:number,
     width:number,
-    title:string
+    title:string,
+    icon:React.ReactNode
 }
