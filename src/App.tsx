@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './App.css'
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
         <section className='w-full border-2 border-red-500'>
           <header 
             className='w-full p-10 border-2 border-blue-500 bg-dark-600'>
-          
+              <nav>
+                <Link to="#">Home</Link>
+              </nav>
           </header>
           <div className='w-full px-5 border-2 border-yellow-500'>
             <div>
