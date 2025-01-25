@@ -1,6 +1,6 @@
 
 
-export const ButtonHeadless = () => {
+export const ButtonMui = () => {
   return (
     <div>Button</div>
   )
