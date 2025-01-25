@@ -14,7 +14,13 @@ export default {
             darkgray:'#9C9C9C',
             blue:'#0d9aff',
             white:'#FFFFFF'
-        }
+        },
+        screen:{
+            'sm': "640px", // Dispositivos móviles grandes
+            'md': "768px", // Tablets (iPad estándar, tablets Android)
+            'lg':"1024px", //laptops pequeñas
+            '2xl': "1440px"
+        },
       },
     },
     plugins: [],
