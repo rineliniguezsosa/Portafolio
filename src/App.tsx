@@ -11,12 +11,13 @@ function App() {
                 <Link to="#">Home</Link>
               </nav>
           </header>
-          <div className='w-full px-5 border-2 border-yellow-500'>
+          <div className='w-full px-5 py-10 border-2 border-yellow-500'>
             <div>
-
+                <img src="./assets/images/rinelfoto.jpg" alt="rinel" />
             </div>
             <div>
-              
+              <h1>Rinel iñiguez sosa</h1>
+              <p>mi description</p>
             </div>
           </div>
         </section>
