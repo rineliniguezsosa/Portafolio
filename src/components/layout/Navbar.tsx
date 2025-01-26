@@ -7,14 +7,16 @@ export const Navbar = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   return (
     <header 
-    className='w-full py-10 px-5 border-2 border-blue-500 bg-dark-600 flex flex-row justify-between items-center'>
+    className='w-full bg-dark-600 py-10 px-5 flex flex-row justify-between items-center'>
 
       <IconButton 
        onClick={()=> setIsDrawerOpen(!isDrawerOpen)}
        sx={{ 
         '&:focus': {
           outline: 'none',
-        },}}
+        },
+        color:'#9C9C9C'
+      }}
       >
               <MenuIcon></MenuIcon>
       </IconButton>
@@ -31,7 +33,7 @@ export const Navbar = () => {
             onClose={()=> setIsDrawerOpen(false)}
             PaperProps={{
               sx:{
-                width:'70%'
+                width:'70%',
               }
             }}
           >
