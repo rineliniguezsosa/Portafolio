@@ -40,7 +40,7 @@ function App() {
                 // color='primary'
                 variant='contained'
                 size='large'
-                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid'}}
+                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid',marginTop:5}}
               >
                 <span className='text-xs'>¡Empecemos!</span>
               </ButtonMui>
