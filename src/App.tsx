@@ -40,9 +40,9 @@ function App() {
                 // color='primary'
                 variant='contained'
                 size='large'
-                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid',marginTop:5}}
+                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid',marginTop:5, width:'70%'}}
               >
-                <span className='text-xs'>¡Empecemos!</span>
+                <span className='text-xs font-ibm-plex-mono'>let's get started</span>
               </ButtonMui>
             </div>
             {/* fin información personal */}
