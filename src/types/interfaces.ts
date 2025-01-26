@@ -1,12 +1,7 @@
 import React from 'react';
+import { ButtonProps } from "@mui/material";
 
-export interface ButtonMuiProps {
-    component:string,
-    location:string,
-    color:'blue'|'green'
-    variant:'outlined',
-    size:number,
-    width:number,
-    title:string,
-    icon:React.ReactNode
+export interface ButtonMuiProps extends ButtonProps {
+   href:string,
+   className?:string
 }
