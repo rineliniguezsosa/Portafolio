@@ -19,17 +19,6 @@ export default {
             semibold: 600,
             bold: 700,
         },
-        extend: {
-            fontStyle: {
-              'thin-italic': ['100', 'italic'],
-              'extralight-italic': ['200', 'italic'],
-              'light-italic': ['300', 'italic'],
-              'regular-italic': ['400', 'italic'],
-              'medium-italic': ['500', 'italic'],
-              'semibold-italic': ['600', 'italic'],
-              'bold-italic': ['700', 'italic'],
-            }
-        },
         colors:{
             dark:{
                 DEFAULT: '#080808',
@@ -37,7 +26,9 @@ export default {
             },
             darkgray:'#9C9C9C',
             blue:'#0d9aff',
-            white:'#FFFFFF'
+            white:'#FFFFFF',
+            green:'3F8E00',
+            greenlight:'62BA1B'
         },
         screen:{
             'sm': "640px", // Dispositivos móviles grandes
