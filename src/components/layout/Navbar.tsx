@@ -9,7 +9,13 @@ export const Navbar = () => {
     <header 
     className='w-full py-10 px-5 border-2 border-blue-500 bg-dark-600 flex flex-row justify-between items-center'>
 
-      <IconButton onClick={()=> setIsDrawerOpen(!isDrawerOpen)}>
+      <IconButton 
+       onClick={()=> setIsDrawerOpen(!isDrawerOpen)}
+       sx={{ 
+        '&:focus': {
+          outline: 'none',
+        },}}
+      >
               <MenuIcon></MenuIcon>
       </IconButton>
 
