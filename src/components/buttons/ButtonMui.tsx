@@ -1,28 +1,22 @@
 import { Button } from "@mui/material";
 import { ButtonMuiProps } from "../../types/interfaces";
 
-
-export const ButtonMui = (
-  {component,
-  location,
-  color,
-  variant,
-  size,
-  width,
-  title
-  icon}:ButtonMuiProps
-) => {
+export const ButtonMui = ({
+  href,
+  children,
+  endIcon,
+  className,
+  ...props
+}: ButtonMuiProps) => {
   return (
     <Button
-      component={component}
-      href={location}
-      color={color}
-      variant={variant}
-      size={size}
-      width={width}
-      endIcon={icon}
+      LinkComponent={"a"}
+      href={href}
+      endIcon={endIcon}
+      className={className}
+      {...props}
     >
-      {title}
+      {children}
     </Button>
-  )
-}
+  );
+};
