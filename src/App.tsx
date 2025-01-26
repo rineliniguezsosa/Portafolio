@@ -1,9 +1,11 @@
 import { Link } from 'react-router'
 import './App.css'
+import { ButtonMui } from './components/buttons/ButtonMui'
+import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 
 function App() {
   return (
-    <main className='w-full h-screen bg-green border-2 border-red-500'>
+    <main className='w-full bg-green border-2 border-green-500'>
         <section className='w-full border-2 border-red-500'>
           <header 
             className='w-full p-10 border-2 border-blue-500 bg-dark-600'>
@@ -18,6 +20,15 @@ function App() {
             <div>
               <h1>Rinel iñiguez sosa</h1>
               <p>mi description</p>
+              <ButtonMui
+                href="#"
+                endIcon={<KeyboardArrowRightOutlinedIcon />}
+                className='bg-blue text-white text-lg'
+                variant='contained'
+                sx={{ textTransform: "none" }}
+              >
+                ¡Empecemos!
+              </ButtonMui>
             </div>
           </div>
         </section>
