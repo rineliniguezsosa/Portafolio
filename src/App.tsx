@@ -23,11 +23,13 @@ function App() {
               <ButtonMui
                 href="#"
                 endIcon={<KeyboardArrowRightOutlinedIcon />}
-                className='bg-blue text-white text-lg'
+                className='text-white'
+                color='primary'
                 variant='contained'
+                size='large'
                 sx={{ textTransform: "none" }}
               >
-                ¡Empecemos!
+                <span className='text-xs'>¡Empecemos!</span>
               </ButtonMui>
             </div>
           </div>
