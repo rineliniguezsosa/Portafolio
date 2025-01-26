@@ -6,12 +6,6 @@ function App() {
   return (
     <main className='w-full border-2 border-green-500'>
         <section className='w-full border-2 border-red-500'>
-          {/* <header 
-            className='w-full p-10 border-2 border-blue-500 bg-dark-600'>
-              <nav>
-                <Link to="#">Home</Link>
-              </nav>
-          </header> */}
           <Navbar/>
           <div 
           className='w-full flex flex-col gap-5 bg-dark items-center py-20 border-2 border-yellow-500'
