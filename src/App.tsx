@@ -15,7 +15,7 @@ function App() {
               </nav>
           </header> */}
           <Navbar/>
-          <div className='w-full px-5 py-10 border-2 border-yellow-500'>
+          <div className='w-full px-5 py-15 border-2 border-yellow-500'>
             <div>
                 <img className='rounded-lg' src="../src/assets/images/rinelfoto.jpg" alt="rinel" />
             </div>
@@ -33,6 +33,9 @@ function App() {
               >
                 <span className='text-xs'>¡Empecemos!</span>
               </ButtonMui>
+            </div>
+            <div>
+              
             </div>
           </div>
         </section>
