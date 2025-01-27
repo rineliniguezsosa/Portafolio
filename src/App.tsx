@@ -8,13 +8,13 @@ function App() {
         <section className='w-full border-2 border-blue-500'>
           <Navbar/>
           <div 
-          className='w-full flex flex-col gap-5 bg-dark items-center py-20 '
+          className='w-full flex flex-col gap-5 bg-dark items-center py-20 px-1'
           >
 
             {/* imagen */}
-            <div className='w-3/5'>
+            <div className='w-[90%] h-[400px] flex items-center justify-center bg-cover bg-center bg-patternmobile bg-no-repeat'>
                 <img 
-                  className='rounded-xl' 
+                  className='w-3/5 rounded-xl' 
                   src="../src/assets/images/rinelfoto.jpg" 
                   alt="rinel" 
                 />
@@ -37,10 +37,9 @@ function App() {
                 href="#"
                 endIcon={<KeyboardArrowRightOutlinedIcon />}
                 className='text-white'
-                // color='primary'
                 variant='contained'
                 size='large'
-                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid',marginTop:5, width:'50%'}}
+                sx={{ textTransform:"none",background:'#3F8E00',border:'1px #62BA1B solid',marginTop:5}}
               >
                 <span className='text-xs font-ibm-plex-mono'>let's get started</span>
               </ButtonMui>
