@@ -36,6 +36,9 @@ export default {
             'lg':"1024px", //laptops pequeñas
             '2xl': "1440px"
         },
+        backgroundImage:{
+          'patternmobile':"url('/src/assets/images/doodlesmixedround.png')",
+        }
       },
     },
     plugins: [],
