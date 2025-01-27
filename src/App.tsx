@@ -4,15 +4,18 @@ import { Navbar } from './components/layout/Navbar';
 
 function App() {
   return (
-    <main className='w-full border-2'>
-        <section className='w-full border-2 border-blue-500'>
+    <main className='w-full'>
+        <section id='aboutme' className='w-full'>
           <Navbar/>
+          {/* inicio div */}
           <div 
           className='w-full flex flex-col gap-5 bg-dark items-center py-20 px-1'
           >
 
             {/* imagen */}
-            <div className='w-[90%] h-[400px] flex items-center justify-center bg-cover bg-center bg-patternmobile bg-no-repeat'>
+            <div 
+              className='w-[90%] h-[400px] flex items-center justify-center bg-cover bg-center
+             bg-patternmobile bg-no-repeat'>
                 <img 
                   className='w-3/5 rounded-xl' 
                   src="../src/assets/images/rinelfoto.jpg" 
@@ -45,11 +48,22 @@ function App() {
               </ButtonMui>
             </div>
             {/* fin información personal */}
-            <div className='w-full border-2 border-orange-500'>
-              
-            </div>
           </div>
+          {/* fin div */}
         </section>
+
+        {/* work experience */}
+        <section id='work-experience' className='w-full border-2 border-pink-500'>
+            <div className='w-full py-20 flex flex-col gap-5 items-center'>
+              <div className='w-3/4 border-2 border-red-500'>
+                <h2 className='text-2xl font-raleway font-bold text-dark'>Work experience</h2>
+              </div>
+              <div className='w-full flex justify-center items-center'>
+                
+              </div>
+            </div>
+        </section>
+        {/* fin work experience */}
     </main>
   )
 }
