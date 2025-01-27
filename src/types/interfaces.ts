@@ -18,5 +18,6 @@ export interface workhistoryprops {
 export interface TimelineMuiProps {
    position:'alternate-reverse'|'alternate'| 'left' | 'right',
    variant:'filled'|'outlined',
-   content: workhistoryprops[]
+   color:'error'|'grey'|'info'|'inherit'|'primary'|'secondary'|'success'|'warning'| string,
+   experience: workhistoryprops[]
 }
