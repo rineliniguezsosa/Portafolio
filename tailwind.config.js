@@ -37,7 +37,7 @@ export default {
             '2xl': "1440px"
         },
         backgroundImage:{
-          'patternmobile':"url('/src/assets/images/doodlesmixedround.png')",
+          'patternmobile':"url('/Portafolio/assets/images/doodlesmixedround.png')",
         }
       },
     },
