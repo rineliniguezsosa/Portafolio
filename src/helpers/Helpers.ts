@@ -1,4 +1,4 @@
-import { workhistoryprops } from './../../types/interfaces';
+import { workhistoryprops } from '../types/interfaces';
 
 export const Workhistory: workhistoryprops[] = [
     {
@@ -39,7 +39,7 @@ export const Workhistory: workhistoryprops[] = [
     }
 ]
 
-export const Testimonials = [
+export const Testimonials  = [
     {
         name:'Juan Roberto Peña López.',
         description:"The time I worked with Rinel Iñiguez showed that he is a great person with values, camaraderie, loyalty, solidarity and, above all, a great friend and colleague inside and outside of work. I testify that he could and will always be able to handle the challenges. that are presented to him both in his life and in the professional field, he is a person who adapts and is not afraid to leave his comfort zone, facing new challenges that will make him grow as a person and professionally",
