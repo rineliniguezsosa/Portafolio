@@ -56,9 +56,9 @@ function App() {
         </section>
 
         {/* work experience */}
-        <section id='work-experience' className='w-full border-2 border-pink-500'>
+        <section id='work-experience' className='w-full'>
             <div className='w-full py-20 flex flex-col gap-5 items-center'>
-              <div className='w-3/4 border-2 border-red-500'>
+              <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-dark'>Work experience</h2>
               </div>
               <div className='w-full flex justify-center items-center'>
