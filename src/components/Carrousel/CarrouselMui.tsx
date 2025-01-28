@@ -20,8 +20,13 @@ export const CarrouselMui = () => {
       '::-webkit-scrollbar': { display: 'none' },
     }}
   >
-    {Testimonials.map(({name,description,position}) => (
-      <TestimonialCard name={name} description={description} position={position}/>
+    {Testimonials.map(({id,name,description,position}) => (
+      <TestimonialCard
+       id={id}
+       name={name} 
+       description={description} 
+       position={position}
+       />
     ))}
   </Box>
   )
