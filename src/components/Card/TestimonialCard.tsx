@@ -2,10 +2,10 @@ import { Card } from "@mui/joy"
 import { TestimonialCardProps } from "../../types/interfaces"
 
 
-export const TestimonialCard = ({name,description,position}:TestimonialCardProps) => {
+export const TestimonialCard = ({id,name,description,position}:TestimonialCardProps) => {
   return (
-    <Card orientation="horizontal" size="lg" variant="outlined">
-      <div>
+    <Card key={id} className="flex flex-col bg-dark" orientation="horizontal" size="lg" variant="outlined">
+      <div className="w-full border-2 border-red-500">
         <blockquote>
             {description}
         </blockquote>
