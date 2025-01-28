@@ -10,14 +10,14 @@ export const TimelineMui = ({position,variant,experience}:TimelineMuiProps) => {
   return (
     <Timeline position={position}>
       {experience.map(data => (
-        <TimelineItem>
+        <TimelineItem key={data.company}>
         <TimelineSeparator>
           <TimelineDot variant={variant} />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-        <h3 className='text-sm text-darkgray font-ibm-plex-mono'>{data.company} - {data.role}({data.type})</h3>
-        <p className='text-sm text-darkgray font-ibm-plex-mono'>{data.duration.start} - {data.duration.end}</p>
+        <h3 className='text-[0.625rem] text-darkgray font-ibm-plex-mono'>{data.company} - {data.role}({data.type})</h3>
+        <p className='text-[0.625rem] text-darkgray font-ibm-plex-mono'>{data.duration.start} - {data.duration.end}</p>
         </TimelineContent>
       </TimelineItem>
       ))
