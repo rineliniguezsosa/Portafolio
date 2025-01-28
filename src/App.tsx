@@ -1,7 +1,7 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
-import { TimelineMui } from './components';
+import { TimelineMui,CarrouselMui } from './components';
 import { Workhistory } from './assets';
 
 
@@ -61,7 +61,7 @@ function App() {
               <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-dark'>Work experience</h2>
               </div>
-              <div className='w-full flex justify-center items-center'>
+              <div className='w-full flex justify-center items-center border-2 border-red-500'>
               <TimelineMui position='alternate' variant='outlined' experience={ Workhistory }/>
               </div>
             </div>
@@ -69,8 +69,20 @@ function App() {
         {/* fin work experience */}
 
         {/* testimonios */}
-        <section id='testimonial' className='w-full'>
+        <section id='testimonial' className='w-full border-2 h-[400px] border-yellow-500'>
+            <div className='w-full py-20 flex bg-dark flex-col gap-5 items-center px-1'>
+              <div className='w-3/4'>
+                <h2 className='text-2xl font-raleway font-bold text-white'>Testimonials</h2>
+                <br />
+                <p className='text-darkgray text-sm font-ibm-plex-mono'>The testimonies I share here come from close friends from the university and coworkers with whom I have had the pleasure of collaborating over the years.</p>
+              </div>
 
+              {/* friends */}
+              <div className='w-3/4 py-5 px-5 border-2 border-white-500'>
+                <CarrouselMui/>
+              </div>
+              {/* fin friends */}
+            </div>
         </section>
         {/* testimonios */}
     </main>
