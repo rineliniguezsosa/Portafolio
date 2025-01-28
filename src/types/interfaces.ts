@@ -21,3 +21,9 @@ export interface TimelineMuiProps {
    color?:'error'|'grey'|'info'|'inherit'|'primary'|'secondary'|'success'|'warning'| string,
    experience: workhistoryprops[]
 }
+
+export interface TestimonialCardProps {
+   name:string,
+   description:string,
+   position:string
+}
