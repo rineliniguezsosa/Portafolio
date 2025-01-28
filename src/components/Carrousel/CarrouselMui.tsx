@@ -12,7 +12,7 @@ export const CarrouselMui = () => {
       py: 1,
       overflow: 'auto',
       width: 343,
-      height:300,
+      // height:'auto',
       scrollSnapType: 'x mandatory',
       '& > *': {
         scrollSnapAlign: 'center',
@@ -20,11 +20,12 @@ export const CarrouselMui = () => {
       '::-webkit-scrollbar': { display: 'none' },
     }}
   >
-    {Testimonials.map(({id,name,description,position}) => (
+    {Testimonials.map(({id,name,description,img,position}) => (
       <TestimonialCard
        id={id}
        name={name} 
        description={description} 
+       img={img}
        position={position}
        />
     ))}
