@@ -1,7 +1,18 @@
+import { Card } from "@mui/material"
+import { TestimonialCardProps } from "../../types/interfaces"
 
 
-export const TestimonialCard = () => {
+export const TestimonialCard = ({name,description,position}:TestimonialCardProps) => {
   return (
-    <div>TestimonialCard</div>
+    <Card orientation="horizontal" size="lg" variant="outlined">
+      <div>
+        <blockquote>
+            {description}
+        </blockquote>
+      </div>
+      <div>
+         {name}{position}
+      </div>
+    </Card>
   )
 }
