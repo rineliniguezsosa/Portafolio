@@ -6,22 +6,22 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { TimelineMuiProps } from '../../types/interfaces';
 
-export const TimelineMui = ({position,variant,color,experience}:TimelineMuiProps) => {
+export const TimelineMui = ({position,variant,experience}:TimelineMuiProps) => {
   return (
     <Timeline position={position}>
-      <TimelineItem>
+      {experience.map(data => (
+        <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot variant={variant} color={color} />
+          <TimelineDot variant={variant} />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-        {experience.map( data =>{
-          <h3>Design and Conservation of DCIESA Properties - web developer</h3>
-          <p>August 2020 - December 2020</p>
-        })
-        }
+        <h3 className='text-sm font-ibm-plex-mono'>{data.company} - {data.role}({data.type})</h3>
+        <p className='text-sm font-ibm-plex-mono'>{data.duration.start} - {data.duration.end}</p>
         </TimelineContent>
       </TimelineItem>
+      ))
+        }
     </Timeline>
   )
 }
