@@ -16,8 +16,8 @@ export const TimelineMui = ({position,variant,experience}:TimelineMuiProps) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-        <h3 className='text-sm font-ibm-plex-mono'>{data.company} - {data.role}({data.type})</h3>
-        <p className='text-sm font-ibm-plex-mono'>{data.duration.start} - {data.duration.end}</p>
+        <h3 className='text-sm text-darkgray font-ibm-plex-mono'>{data.company} - {data.role}({data.type})</h3>
+        <p className='text-sm text-darkgray font-ibm-plex-mono'>{data.duration.start} - {data.duration.end}</p>
         </TimelineContent>
       </TimelineItem>
       ))
