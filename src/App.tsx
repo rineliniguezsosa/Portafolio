@@ -21,7 +21,7 @@ function App() {
              bg-patternmobile bg-no-repeat'>
                 <img 
                   className='w-3/5 rounded-xl' 
-                  src="../src/assets/images/rinelfoto.jpg" 
+                  src="/Portafolio/assets/images/rinelfoto.jpg" 
                   alt="rinel" 
                 />
             </div>
