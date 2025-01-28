@@ -2,6 +2,7 @@ import { workhistoryprops } from '../types/interfaces';
 
 export const Workhistory: workhistoryprops[] = [
     {
+        id:0,
         company:'Caprepa',
         role:'Full stack developer',
         duration:{
@@ -11,6 +12,7 @@ export const Workhistory: workhistoryprops[] = [
         type:'on-site'
     },
     {
+        id:1,
         company:'Sol4it',
         role:'Front end angular Developer',
         duration:{
@@ -20,6 +22,7 @@ export const Workhistory: workhistoryprops[] = [
         type:'remote'
     },
     {
+        id:2,
         company:'Paynalli systems',
         role:'Software developer',
         duration:{
@@ -29,6 +32,7 @@ export const Workhistory: workhistoryprops[] = [
         type:'hybrid'
     },
     {
+        id:3,
         company:'Design and Conservation of DCIESA Properties',
         role:'web developer',
         duration:{
@@ -41,11 +45,13 @@ export const Workhistory: workhistoryprops[] = [
 
 export const Testimonials  = [
     {
+        id:0,
         name:'Juan Roberto Peña López.',
         description:"The time I worked with Rinel Iñiguez showed that he is a great person with values, camaraderie, loyalty, solidarity and, above all, a great friend and colleague inside and outside of work. I testify that he could and will always be able to handle the challenges. that are presented to him both in his life and in the professional field, he is a person who adapts and is not afraid to leave his comfort zone, facing new challenges that will make him grow as a person and professionally",
         position:'Full Stack Developer'
     },
     {
+        id:1,
         name:'Samir jimenez',
         description:'I know Rinel as a talented and passionate programmer. He is always looking for innovative and effective solutions, and his dedication is inspiring. A great teammate, willing to share knowledge and collaborate in search of meeting all project requirements and adding additional value',
         position:'Middleware Jr'
