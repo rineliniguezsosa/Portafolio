@@ -2,7 +2,7 @@ import { workhistoryprops } from './../../types/interfaces';
 
 export const Workhistory: workhistoryprops[] = [
     {
-        company:'Design and Conservation of DCIESA Properties - web developer',
+        company:'Design and Conservation of DCIESA Properties',
         role:'web developer',
         duration:{
             start:'August 2020',
