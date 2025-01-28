@@ -47,13 +47,15 @@ export const Testimonials  = [
     {
         id:0,
         name:'Juan Roberto Peña López.',
-        description:"The time I worked with Rinel Iñiguez showed that he is a great person with values, camaraderie, loyalty, solidarity and, above all, a great friend and colleague inside and outside of work. I testify that he could and will always be able to handle the challenges. that are presented to him both in his life and in the professional field, he is a person who adapts and is not afraid to leave his comfort zone, facing new challenges that will make him grow as a person and professionally",
+        description:"Rinel Iñiguez is a remarkable person with strong values, loyalty, camaraderie, and solidarity. He is an excellent friend and colleague, both personally and professionally. Rinel consistently rises to challenges, adapting and stepping out of his comfort zone to grow as an individual and in his career.",
+        img:'../../dist/assets/images/testimonial1.jpeg',
         position:'Full Stack Developer'
     },
     {
         id:1,
         name:'Samir jimenez',
         description:'I know Rinel as a talented and passionate programmer. He is always looking for innovative and effective solutions, and his dedication is inspiring. A great teammate, willing to share knowledge and collaborate in search of meeting all project requirements and adding additional value',
+        img:'../../dist/assets/images/testimonial2.jpg',
         position:'Middleware Jr'
     }
 ]
