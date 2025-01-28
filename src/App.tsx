@@ -67,6 +67,12 @@ function App() {
             </div>
         </section>
         {/* fin work experience */}
+
+        {/* testimonios */}
+        <section id='testimonial' className='w-full'>
+
+        </section>
+        {/* testimonios */}
     </main>
   )
 }
