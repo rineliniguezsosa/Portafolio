@@ -7,6 +7,7 @@ export interface ButtonMuiProps extends ButtonProps {
 }
 
 export interface workhistoryprops {
+   id:number,
    company:string,
    role:string,
    duration:{
@@ -23,6 +24,7 @@ export interface TimelineMuiProps {
 }
 
 export interface TestimonialCardProps {
+   id:number,
    name:string,
    description:string,
    position:string
