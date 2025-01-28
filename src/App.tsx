@@ -2,7 +2,7 @@ import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
 import { TimelineMui,CarrouselMui } from './components';
-import { Workhistory } from './assets';
+import { Workhistory } from './helpers';
 
 
 function App() {
