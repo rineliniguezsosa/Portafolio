@@ -27,5 +27,6 @@ export interface TestimonialCardProps {
    id:number,
    name:string,
    description:string,
+   img:string,
    position:string
 }
