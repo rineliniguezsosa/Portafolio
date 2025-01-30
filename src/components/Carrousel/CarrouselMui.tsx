@@ -11,10 +11,11 @@ export const CarrouselMui = () => {
       gap: 1,
       py: 1,
       overflow: 'auto',
-      width: 343,
-      // height:'auto',
+      width: '100%',
       scrollSnapType: 'x mandatory',
       '& > *': {
+        flex: '0 0 auto',
+        width: 'calc(100% - 16px)',
         scrollSnapAlign: 'center',
       },
       '::-webkit-scrollbar': { display: 'none' },
