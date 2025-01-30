@@ -11,7 +11,7 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
        size="lg" 
        variant="outlined"
     >
-      <div className="w-full border-2 border-red-500">
+      <div className="w-full">
         <blockquote className="text-darkgray text-sm font-ibm-plex-mono">
             {description}
         </blockquote>
