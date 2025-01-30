@@ -57,5 +57,12 @@ export const Testimonials  = [
         description:'I know Rinel as a talented and passionate programmer. He is always looking for innovative and effective solutions, and his dedication is inspiring. A great teammate, willing to share knowledge and collaborate in search of meeting all project requirements and adding additional value',
         img:'/Portafolio/assets/images/testimonial2.jpg',
         position:'Middleware Jr'
+    },
+    {
+        id:2,
+        name:'Joshua Emmanuel Aranda Moreno',
+        description:'Rinel Iñiguez Sosa is a great fullstack MERN developer. He has created various apps and has taught me in TypeScript, backend with Node.js and TS, React with Vite, consumption and development of APIs and middlewares. His guidance has helped me a lot to improve my skills',
+        img:'/Portafolio/assets/images/testimonial3.jpg',
+        position:'Full stack jr'
     }
 ]
