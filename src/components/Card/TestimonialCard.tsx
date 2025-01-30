@@ -8,17 +8,20 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
        key={id} 
        sx={{backgroundColor:'#080808',display:'flex',flexDirection:'column'}} 
        orientation="horizontal" 
-       size="lg" 
+       size="sm" 
        variant="outlined"
     >
       <div className="w-full">
-        <blockquote className="text-darkgray text-sm font-ibm-plex-mono">
+        <blockquote className="text-darkgray text-xs font-ibm-plex-mono">
             {description}
         </blockquote>
       </div>
-      <div className="w-1/2">
+      <div className="w-full flex flex-row">
          <img className="w-10 h-10 rounded-full mr-3" src={img} alt={name} />
-         <span className="text-lg font-raleway font-bold text-white">{name}{position}</span>
+         <div>
+           <span className="text-xs font-raleway font-bold text-white">{name}</span>
+           <p className="text-xs font-raleway font-bold text-white">{position}</p>
+         </div>
       </div>
     </Card>
   )
