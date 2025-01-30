@@ -44,7 +44,7 @@ export const Navbar = () => {
           >
             <nav className='w-full h-full px-2 py-5 flex flex-col items-center'>
               <div className='w-full flex justify-between'>
-                <span className='text-white font-raleway font-bold font-xl'>Hola Bienvenido</span>
+                <span className='text-white font-raleway font-bold font-xl'>Hi welcome</span>
                 <CloseIcon sx={{color:'white'}} onClick={()=> setIsDrawerOpen(false)}/>
               </div>
 
