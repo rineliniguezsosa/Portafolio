@@ -61,7 +61,7 @@ function App() {
               <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-dark'>Work experience</h2>
               </div>
-              <div className='w-full flex justify-center items-center border-2 border-red-500'>
+              <div className='w-full flex justify-center items-center'>
               <TimelineMui position='alternate' variant='outlined' experience={ Workhistory }/>
               </div>
             </div>
@@ -69,7 +69,7 @@ function App() {
         {/* fin work experience */}
 
         {/* testimonios */}
-        <section id='testimonial' className='w-full border-2 h-[400px] border-yellow-500'>
+        <section id='testimonial' className='w-full border-2 h-[400px]'>
             <div className='w-full py-20 flex bg-dark flex-col gap-5 items-center px-1'>
               <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-white'>Testimonials</h2>
