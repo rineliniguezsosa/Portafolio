@@ -2,6 +2,7 @@ import { IconButton,Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from 'react';
+// import { Link } from 'react-router';
 
 
 export const Navbar = () => {
@@ -42,13 +43,27 @@ export const Navbar = () => {
             }}
             // className="bg-dark"
           >
-            <nav className='w-full h-full px-10 py-2 flex flex-col items-center'>
-              <div className='w-full flex justify-between border-2 border-red-500'>
-                <span className='text-white font-raleway font-bold font-xl'>Hola Bienvenido,</span>
+            <nav className='w-full h-full px-2 py-5 flex flex-col items-center'>
+              <div className='w-full flex justify-between'>
+                <span className='text-white font-raleway font-bold font-xl'>Hola Bienvenido</span>
                 <CloseIcon sx={{color:'white'}} onClick={()=> setIsDrawerOpen(false)}/>
               </div>
 
-              <div>
+              {/* links principales */}
+              <div className='w-full flex flex-col mt-5'>
+              <a 
+                href='#work-experience' 
+                onClick={() => setIsDrawerOpen(false)} 
+                className='w-full text-white text-center px-5 py-5'>
+                Work experience
+              </a>
+              <a 
+                href='#testimonial' 
+                onClick={() => setIsDrawerOpen(false)} 
+                className='w-full text-white text-center px-5 py-5'
+              >
+                Testimonial
+              </a>
 
               </div>
             </nav>
