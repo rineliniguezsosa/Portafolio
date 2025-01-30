@@ -62,7 +62,7 @@ export const Testimonials  = [
         id:2,
         name:'Joshua Emmanuel',
         description:'Rinel Iñiguez Sosa is a great fullstack MERN developer. He has created various apps and has taught me in TypeScript, backend with Node.js and TS, React with Vite, consumption and development of APIs and middlewares. His guidance has helped me a lot to improve my skills',
-        img:'/Portafolio/assets/images/testimonial3.jpg',
+        img:'/Portafolio/assets/images/josh.jpg',
         position:'Full stack jr'
     }
 ]
