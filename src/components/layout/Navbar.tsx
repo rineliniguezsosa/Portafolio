@@ -42,10 +42,10 @@ export const Navbar = () => {
             }}
             // className="bg-dark"
           >
-            <nav className='w-full h-full px-2 py-2 flex flex-col items-center justify-center'>
-              <div>
-                <span>Hola Bienvenido,</span>
-                <CloseIcon/>
+            <nav className='w-full h-full px-10 py-2 flex flex-col items-center'>
+              <div className='w-full flex justify-between border-2 border-red-500'>
+                <span className='text-white font-raleway font-bold font-xl'>Hola Bienvenido,</span>
+                <CloseIcon sx={{color:'white'}} onClick={()=> setIsDrawerOpen(false)}/>
               </div>
 
               <div>
