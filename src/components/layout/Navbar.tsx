@@ -38,7 +38,6 @@ export const Navbar = () => {
                 width:'100%',
                 height:'100%',
                 backgroundColor:'#080808',
-                border:'5px yellow solid',
               }
             }}
             // className="bg-dark"
