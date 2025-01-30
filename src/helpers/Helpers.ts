@@ -47,7 +47,7 @@ export const Testimonials  = [
     {
         id:0,
         name:'Juan Roberto Peña López.',
-        description:"Rinel Iñiguez is a remarkable person with strong values, loyalty, camaraderie, and solidarity. He is an excellent friend and colleague, both personally and professionally. Rinel consistently rises to challenges, adapting and stepping out of his comfort zone to grow as an individual and in his career.",
+        description:"Rinel Iñiguez is a remarkable individual known for his strong values, loyalty, camaraderie, and solidarity. As a friend and colleague, he excels both personally and professionally, embracing challenges, adapting, and stepping out of his comfort zone to achieve growth in his life and career.",
         img:'../../dist/assets/images/testimonial1.jpeg',
         position:'Full Stack Developer'
     },
@@ -55,7 +55,7 @@ export const Testimonials  = [
         id:1,
         name:'Samir jimenez',
         description:'I know Rinel as a talented and passionate programmer. He is always looking for innovative and effective solutions, and his dedication is inspiring. A great teammate, willing to share knowledge and collaborate in search of meeting all project requirements and adding additional value',
-        img:'../../dist/assets/images/testimonial2.jpg',
+        img:'/Portafolio/assets/images/testimonial2.jpg',
         position:'Middleware Jr'
     }
 ]
