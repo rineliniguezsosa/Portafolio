@@ -53,13 +53,13 @@ export const Navbar = () => {
               <a 
                 href='#work-experience' 
                 onClick={() => setIsDrawerOpen(false)} 
-                className='w-full text-white text-center px-5 py-5'>
+                className='w-full text-white text-center px-5 py-5 font-raleway font-bold font-xl'>
                 Work experience
               </a>
               <a 
                 href='#testimonial' 
                 onClick={() => setIsDrawerOpen(false)} 
-                className='w-full text-white text-center px-5 py-5'
+                className='w-full text-white text-center px-5 py-5 font-raleway font-bold font-xl'
               >
                 Testimonial
               </a>
