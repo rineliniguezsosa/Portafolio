@@ -69,7 +69,7 @@ function App() {
         {/* fin work experience */}
 
         {/* testimonios */}
-        <section id='testimonial' className='w-full border-2 h-[400px]'>
+        <section id='testimonial' className='w-full h-[400px]'>
             <div className='w-full py-20 flex bg-dark flex-col gap-5 items-center px-1'>
               <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-white'>Testimonials</h2>
@@ -78,7 +78,7 @@ function App() {
               </div>
 
               {/* friends */}
-              <div className='w-3/4 py-5 px-3'>
+              <div className='w-3/4 py-3 px-3'>
                 <CarrouselMui/>
               </div>
               {/* fin friends */}
