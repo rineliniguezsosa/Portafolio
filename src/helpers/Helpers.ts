@@ -64,5 +64,12 @@ export const Testimonials  = [
         description:'Rinel Iñiguez Sosa is a great fullstack MERN developer. He has created various apps and has taught me in TypeScript, backend with Node.js and TS, React with Vite, consumption and development of APIs and middlewares. His guidance has helped me a lot to improve my skills',
         img:'/Portafolio/assets/images/testimonial3.jpg',
         position:'Full stack jr'
+    },
+    {
+        id:3,
+        name:'Victoria esperanza',
+        description:'Tuve la oportunidad de trabajar con el Ing. Rinel en Paynalli Systems y es un programador excepcional. Destaca en TypeScript y ReactJS, resolviendo problemas complejos con código limpio y eficiente. Su compromiso y trabajo en equipo impulsaron avances significativos en los proyectos.',
+        img:'/Portafolio/assets/images/testimonial4.jpeg',
+        position:'Front end developer'
     }
 ]
