@@ -6,7 +6,7 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
   return (
     <Card 
        key={id} 
-       sx={{backgroundColor:'#080808',display:'flex',flexDirection:'column'}} 
+       sx={{backgroundColor:'#080808',display:'flex',flexDirection:'column',alignItems:'stretch',padding:1}} 
        orientation="horizontal" 
        size="sm" 
        variant="outlined"
@@ -20,7 +20,7 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
           />
       </div>
       {/* fin quote */}
-      
+
       {/* description testimonial */}
       <div className="w-full">
         <blockquote className="text-darkgray text-xs font-ibm-plex-mono">
@@ -30,8 +30,8 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
       {/* fin descrioption testimonial */}
 
       {/* testimonial */}
-      <div className="w-full flex flex-row">
-         <img className="w-10 h-10 rounded-full mr-3" src={img} alt={name} />
+      <div className="w-full flex flex-row items-center py-2 gap-3">
+         <img className="w-12 h-12 rounded-full" src={img} alt={name} />
          <div>
            <span className="text-xs font-raleway font-bold text-white">{name}</span>
            <p className="text-xs font-raleway font-bold text-white">{position}</p>
