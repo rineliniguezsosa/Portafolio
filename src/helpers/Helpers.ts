@@ -46,7 +46,7 @@ export const Workhistory: workhistoryprops[] = [
 export const Testimonials  = [
     {
         id:0,
-        name:'Juan Roberto Peña López.',
+        name:'Juan Roberto',
         description:"Rinel Iñiguez is a remarkable individual known for his strong values, loyalty, camaraderie, and solidarity. As a friend and colleague, he excels both personally and professionally, embracing challenges, adapting, and stepping out of his comfort zone to achieve growth in his life and career.",
         img:'/Portafolio/assets/images/testimonial1.jpeg',
         position:'Full Stack Developer'
