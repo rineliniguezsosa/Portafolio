@@ -23,6 +23,7 @@ export const CarrouselMui = () => {
   >
     {Testimonials.map(({id,name,description,img,position}) => (
       <TestimonialCard
+       key={id}
        id={id}
        name={name} 
        description={description} 
