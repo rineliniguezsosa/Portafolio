@@ -6,7 +6,7 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
   return (
     <Card 
        key={id} 
-       sx={{backgroundColor:'#080808',display:'flex',flexDirection:'column',alignItems:'stretch',padding:1}} 
+       sx={{backgroundColor:'#080808',display:'flex',flexDirection:'column',alignItems:'stretch',paddingX:2}} 
        orientation="horizontal" 
        size="sm" 
        variant="outlined"
