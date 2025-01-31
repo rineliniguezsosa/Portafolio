@@ -88,14 +88,28 @@ function App() {
 
         <section id='proyects' className='w-full h-[400px]'>
           <div className='w-full py-20 flex flex-col gap-5 items-center px-1'>
+
           <div className='w-3/4'>
-                <h2 className='text-2xl font-raleway font-bold text-dark'>Projects</h2>
+
+                <div className='flex justify-between'>
+                  <div>
+                    <h2 className='text-2xl font-raleway font-bold text-dark'>Projects</h2>
+                  </div>
+
+                  <div className='text-center text-darkgray text-sm font-ibm-plex-mono'>
+                      <span>Total</span>
+                      <p>41</p>
+                  </div>
+                </div>
                 <br />
-                <p className='text-darkgray text-sm font-ibm-plex-mono'>
-                  Explore my projects and discover what I can build. 🚀
-                </p>
+                <div>
+                  <p className='text-darkgray text-sm font-ibm-plex-mono'>
+                    Explore my projects and discover what I can build. 🚀
+                  </p>
+                </div>
               </div>
           </div>
+
         </section>
     </main>
   )
