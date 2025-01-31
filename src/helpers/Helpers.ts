@@ -68,7 +68,7 @@ export const Testimonials  = [
     {
         id:3,
         name:'Victoria esperanza',
-        description:'Tuve la oportunidad de trabajar con el Ing. Rinel en Paynalli Systems y es un programador excepcional. Destaca en TypeScript y ReactJS, resolviendo problemas complejos con código limpio y eficiente. Su compromiso y trabajo en equipo impulsaron avances significativos en los proyectos.',
+        description:'I had the opportunity to work with Eng. Rinel at Paynalli Systems and he is an exceptional programmer. Excels in TypeScript and ReactJS, solving complex problems with clean and efficient code. Their commitment and teamwork drove significant progress on the projects.',
         img:'/Portafolio/assets/images/testimonial4.jpeg',
         position:'Front end developer'
     }
