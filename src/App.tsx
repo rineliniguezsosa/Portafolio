@@ -78,7 +78,7 @@ function App() {
               </div>
 
               {/* friends */}
-              <div className='w-3/4 py-3 px-3'>
+              <div className='w-3/4'>
                 <CarrouselMui/>
               </div>
               {/* fin friends */}
