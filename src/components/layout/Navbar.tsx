@@ -52,7 +52,7 @@ export const Navbar = () => {
               </div>
 
               {/* links principales */}
-              <div className='w-full flex flex-col mt-5'>
+              <div className='w-full flex flex-col mt-5 gap-2'>
               <NavLink
                 onClick={closeDrawer} 
                 location='#work-experience' 
