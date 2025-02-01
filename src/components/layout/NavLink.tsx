@@ -1,7 +1,13 @@
+import { NavLinkProps } from "../../types/interfaces"
 
 
-export const NavLink = () => {
+export const NavLink = ({location,onClick,title}: NavLinkProps) => {
   return (
-    <div>NavLink</div>
+    <a 
+        onClick={onClick} 
+        href={location} 
+        className='w-full text-white text-center px-5 py-5 font-raleway font-bold font-xl'>
+                {title}
+    </a>
   )
 }
