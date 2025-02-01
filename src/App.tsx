@@ -117,6 +117,8 @@ function App() {
                   <p className='text-darkgray text-sm font-ibm-plex-mono'>
                     Explore my projects and discover what I can build. 🚀
                   </p>
+                  <br />
+                  <p className='text-darkgray text-sm font-ibm-plex-mono'>building this section 🛠️</p>
                 </div>
 
                 {/* projects */}
