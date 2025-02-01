@@ -2,6 +2,7 @@ import { IconButton,Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from 'react';
+import { NavLink } from './NavLink';
 // import { Link } from 'react-router';
 
 
@@ -50,12 +51,12 @@ export const Navbar = () => {
 
               {/* links principales */}
               <div className='w-full flex flex-col mt-5'>
-              <a 
-                href='#work-experience' 
+              <NavLink
                 onClick={() => setIsDrawerOpen(false)} 
-                className='w-full text-white text-center px-5 py-5 font-raleway font-bold font-xl'>
-                Work experience
-              </a>
+                location='#work-experience' 
+                title="Work experience"
+              />
+
               <a 
                 href='#testimonial' 
                 onClick={() => setIsDrawerOpen(false)} 
