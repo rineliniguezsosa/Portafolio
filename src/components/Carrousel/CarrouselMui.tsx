@@ -1,9 +1,8 @@
 import Box from '@mui/joy/Box';
-import { Testimonials } from '../../helpers';
-import { TestimonialCard } from '../Card/TestimonialCard';
+import { CarrouselMuiProps } from '../../types/interfaces';
 
 
-export const CarrouselMui = () => {
+export const CarrouselMui = ({children}:CarrouselMuiProps) => {
   return (
     <Box
     sx={{
@@ -21,16 +20,7 @@ export const CarrouselMui = () => {
       '::-webkit-scrollbar': { display: 'none' },
     }}
   >
-    {Testimonials.map(({id,name,description,img,position}) => (
-      <TestimonialCard
-       key={id}
-       id={id}
-       name={name} 
-       description={description} 
-       img={img}
-       position={position}
-       />
-    ))}
+    {children}
   </Box>
   )
 }
