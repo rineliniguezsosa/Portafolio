@@ -8,6 +8,8 @@ import { NavLink } from './NavLink';
 
 export const Navbar = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+
+    const closeDrawer = () => setIsDrawerOpen(false)
   return (
     <header 
     className='w-full bg-dark-600 py-10 px-5 flex flex-row justify-between items-center'>
@@ -52,7 +54,7 @@ export const Navbar = () => {
               {/* links principales */}
               <div className='w-full flex flex-col mt-5'>
               <NavLink
-                onClick={() => setIsDrawerOpen(false)} 
+                onClick={closeDrawer} 
                 location='#work-experience' 
                 title="Work experience"
               />
