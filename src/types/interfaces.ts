@@ -36,3 +36,7 @@ export interface NavLinkProps {
    location:string,
    title:string
 }
+
+export interface CarrouselMuiProps {
+   children:React.ReactNode
+}
