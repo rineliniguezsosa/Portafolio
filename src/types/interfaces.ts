@@ -30,3 +30,9 @@ export interface TestimonialCardProps {
    img:string,
    position:string
 }
+
+export interface NavLinkProps {
+   onClick:()=> void,
+   location:string,
+   title:string
+}
