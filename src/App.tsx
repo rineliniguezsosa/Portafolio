@@ -1,8 +1,8 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
-import { TimelineMui,CarrouselMui } from './components';
-import { Workhistory } from './helpers';
+import { TimelineMui,CarrouselMui, TestimonialCard } from './components';
+import { Testimonials, Workhistory } from './helpers';
 
 
 function App() {
@@ -79,7 +79,18 @@ function App() {
 
               {/* friends */}
               <div className='w-3/4'>
-                <CarrouselMui/>
+                <CarrouselMui>
+                  {Testimonials.map(({id,name,description,img,position})=> (
+                    <TestimonialCard
+                      key={id}
+                      id={id}
+                      name={name}
+                      description={description}
+                      img={img}
+                      position={position}
+                    />
+                  ))}
+                </CarrouselMui>
               </div>
               {/* fin friends */}
             </div>
@@ -107,6 +118,8 @@ function App() {
                     Explore my projects and discover what I can build. 🚀
                   </p>
                 </div>
+
+                {/* projects */}
               </div>
           </div>
 
