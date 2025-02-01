@@ -59,13 +59,12 @@ export const Navbar = () => {
                 title="Work experience"
               />
 
-              <a 
-                href='#testimonial' 
-                onClick={() => setIsDrawerOpen(false)} 
-                className='w-full text-white text-center px-5 py-5 font-raleway font-bold font-xl'
-              >
-                Testimonial
-              </a>
+              <NavLink
+                onClick={closeDrawer} 
+                location='#testimonial' 
+                title="Testimonial"
+              />
+
 
               </div>
             </nav>
