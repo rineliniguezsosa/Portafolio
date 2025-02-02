@@ -71,5 +71,12 @@ export const Testimonials  = [
         description:'I had the opportunity to work with Eng. Rinel at Paynalli Systems and he is an exceptional programmer. Excels in TypeScript and ReactJS, solving complex problems with clean and efficient code. Their commitment and teamwork drove significant progress on the projects.',
         img:'/Portafolio/assets/images/testimonial4.jpeg',
         position:'Front end developer'
+    },
+    {
+        id:4,
+        name:'Mario pinto',
+        description:'I have known Rinel since college and I can say that he is a reliable, dedicated and passionate person about programming.',
+        img:'/Portafolio/assets/images/testimonial5.jpeg',
+        position:'B2M project engineer'
     }
 ]
