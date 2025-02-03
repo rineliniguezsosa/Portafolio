@@ -28,12 +28,12 @@ export const ProjectCard = ({id,name,description,img,url}: projectProps) => {
           )
         }
   
-        <div className="flex flex-col gap-3">
-            <div>
+        <div className="w-full flex flex-col gap-3">
+            <div className="w-full">
               <h4 className="font-relaway text-base text-dark font-bold">{name}</h4>
             </div>
 
-            <div>
+            <div className="w-full">
               <p className="text-darkgray text-sm font-ibm-plex-mono">{description}</p>
             </div>
 
