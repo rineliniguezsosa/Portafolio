@@ -65,6 +65,12 @@ export const Navbar = () => {
                 title="Testimonial"
               />
 
+              <NavLink
+                onClick={closeDrawer} 
+                location='#projects' 
+                title="Projects"
+              />
+
 
               </div>
             </nav>
