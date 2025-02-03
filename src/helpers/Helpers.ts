@@ -169,5 +169,12 @@ export const frontendmentorprojects : projectProps[] = [
         description:'Blog preview card with attractive and functional design, responsive to devices.',
         img:'/Portafolio/assets/images/blogcardpreview.jpg',
         url:'https://rineliniguezsosa.github.io/blog-preview-card/'
+    },
+    {
+        id:7,
+        name:'QR code component',
+        description:'An interactive QR code component with title and subtitle, designed for the web.',
+        img:'/Portafolio/assets/images/qrcodepreview.jpg',
+        url:'https://rineliniguezsosa.github.io/qr-code-component/'
     }
 ]
