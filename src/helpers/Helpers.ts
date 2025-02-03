@@ -148,5 +148,12 @@ export const frontendmentorprojects : projectProps[] = [
         description:'A responsive, interactive product preview card component.',
         img:'/Portafolio/assets/images/productpreview.jpg',
         url:'https://rineliniguezsosa.github.io/product-preview-card-component/'
+    },
+    {
+        id:4,
+        name:'Recipe page',
+        description:'A recipe page with a clean, accessible layout to display ingredients and instructions.',
+        img:'/Portafolio/assets/images/recipepagepreview.jpg',
+        url:'https://rineliniguezsosa.github.io/recipe-page/'
     }
 ]
