@@ -11,18 +11,18 @@ function App() {
         <section id='aboutme' className='w-full'>
           <Navbar/>
           {/* inicio div */}
-          <div 
+          <div
           className='w-full flex flex-col gap-5 bg-dark items-center py-20 px-1'
           >
 
             {/* imagen */}
-            <div 
+            <div
               className='w-[90%] h-[400px] flex items-center justify-center bg-cover bg-center
              bg-patternmobile bg-no-repeat'>
-                <img 
-                  className='w-3/5 rounded-xl' 
-                  src="/Portafolio/assets/images/rinelfoto.jpg" 
-                  alt="rinel" 
+                <img
+                  className='w-3/5 rounded-xl'
+                  src="/Portafolio/assets/images/rinelfoto.jpg"
+                  alt="rinel"
                 />
             </div>
             {/* fin imagen */}
@@ -32,7 +32,7 @@ function App() {
               <h1 className='text-2xl font-raleway font-bold text-white'>Rinel iñiguez sosa</h1>
               <p className='text-darkgray font-ibm-plex-mono text-sm'>
               I am a Full Stack Developer from Mérida, Yucatán, Mexico, specialized in JavaScript
-               technologies. My work has allowed me to grow professionally and explore places like Mexico City and Culiacán. 
+               technologies. My work has allowed me to grow professionally and explore places like Mexico City and Culiacán.
                Committed to delivering quality results, I value responsibility, dedication, and continuous improvement.
               </p>
               <br />
@@ -97,12 +97,10 @@ function App() {
         </section>
         {/* testimonios */}
 
-        <section id='proyects' className='w-full h-[400px]'>
-          <div className='w-full py-20 flex flex-col gap-5 items-center px-1'>
+        <section id='proyects' className='w-full bg-white'>
+            <div className='w-full py-20 flex flex-col gap-5 items-center px-1'>
 
-          <div className='w-3/4'>
-
-                <div className='flex justify-between'>
+                <div className='w-3/4 flex justify-between'>
                   <div>
                     <h2 className='text-2xl font-raleway font-bold text-dark'>Projects</h2>
                   </div>
@@ -112,35 +110,34 @@ function App() {
                       <p>41</p>
                   </div>
                 </div>
-                <br />
-                <div className='border-2 border-red-500'>
+             
+                <div className='w-3/4'>
                   <p className='text-darkgray text-sm font-ibm-plex-mono'>
                     Explore my projects and discover what I can build. 🚀
                   </p>
                   <br />
-                  <p className='text-darkgray text-sm font-ibm-plex-mono'>building this section 🛠️</p>
 
-                  
+
                   <CarrouselMui title='React native'>
                       {
                         reactnativeprojects.map(({id,name,description,img,url})=>(
                           <ProjectCard
-                            key={id}
-                            id={id}
-                            name={name}
-                            description={description}
-                            img={img}
-                            url={url}
-                            />
+                          key={id}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
                         ))
                       }
                   </CarrouselMui>
-                  
+
+                  <p className='text-darkgray text-sm font-ibm-plex-mono'>building this section 🛠️</p>
                 </div>
 
                 {/* projects */}
-              </div>
-          </div>
+            </div>
 
         </section>
     </main>
