@@ -1,8 +1,8 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
-import { TimelineMui,CarrouselMui, TestimonialCard } from './components';
-import { Testimonials, Workhistory } from './helpers';
+import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard } from './components';
+import { Testimonials, Workhistory,reactnativeprojects } from './helpers';
 
 
 function App() {
@@ -113,12 +113,29 @@ function App() {
                   </div>
                 </div>
                 <br />
-                <div>
+                <div className='border-2 border-red-500'>
                   <p className='text-darkgray text-sm font-ibm-plex-mono'>
                     Explore my projects and discover what I can build. 🚀
                   </p>
                   <br />
                   <p className='text-darkgray text-sm font-ibm-plex-mono'>building this section 🛠️</p>
+
+                  
+                  <CarrouselMui title='React native'>
+                      {
+                        reactnativeprojects.map(({id,name,description,img,url})=>(
+                          <ProjectCard
+                            key={id}
+                            id={id}
+                            name={name}
+                            description={description}
+                            img={img}
+                            url={url}
+                            />
+                        ))
+                      }
+                  </CarrouselMui>
+                  
                 </div>
 
                 {/* projects */}
