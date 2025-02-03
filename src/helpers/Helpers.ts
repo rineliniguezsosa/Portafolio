@@ -102,6 +102,13 @@ export const reactnativeprojects: projectProps[]  = [
         description:'React Native project showcasing the Box Model with padding, margin, border, and position for responsive layouts.',
         img:'',
         url:'https://github.com/rineliniguezsosa/box-model-react-native'
+    },
+    {
+        id:3,
+        name:'React native components',
+        description:'This repository shows you all the react-native components',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/components-react-native'
     }
 
 ]
