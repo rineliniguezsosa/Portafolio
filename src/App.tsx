@@ -97,7 +97,7 @@ function App() {
         </section>
         {/* testimonios */}
 
-        <section id='proyects' className='w-full bg-white'>
+        <section id='projects' className='w-full bg-white'>
             <div className='w-full py-20 flex flex-col gap-5 items-center px-1'>
 
                 <div className='w-3/4 flex justify-between'>
