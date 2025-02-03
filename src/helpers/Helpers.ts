@@ -80,3 +80,13 @@ export const Testimonials  = [
         position:'B2M project engineer'
     }
 ]
+
+export const reactnativeprojects  = [
+    {
+        id:0,
+        name:'Navigation in React Native',
+        description:'',
+        img:'',
+        url:''
+    }
+]
