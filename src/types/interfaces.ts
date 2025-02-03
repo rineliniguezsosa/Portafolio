@@ -27,7 +27,7 @@ export interface TestimonialCardProps {
    id:number,
    name:string,
    description:string,
-   img:string,
+   img?:string,
    position:string
 }
 
@@ -39,4 +39,8 @@ export interface NavLinkProps {
 
 export interface CarrouselMuiProps {
    children:React.ReactNode
+}
+
+export interface projectProps extends Omit<TestimonialCardProps,"position"> {
+  url:string
 }
