@@ -85,8 +85,8 @@ export const reactnativeprojects: projectProps[]  = [
     {
         id:0,
         name:'Navigation in React Native',
-        description:'',
+        description:'This is a repository to work on all react native navigations',
         img:'',
-        url:''
+        url:'https://github.com/rineliniguezsosa/navigation-react-native'
     }
 ]
