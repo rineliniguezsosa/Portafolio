@@ -2,7 +2,7 @@ import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
 import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard } from './components';
-import { Testimonials, Workhistory,reactnativeprojects } from './helpers';
+import { Testimonials, Workhistory,frontendmentorprojects,reactnativeprojects } from './helpers';
 
 
 function App() {
@@ -121,6 +121,21 @@ function App() {
                   <CarrouselMui title='React native'>
                       {
                         reactnativeprojects.map(({id,name,description,img,url})=>(
+                          <ProjectCard
+                          key={id}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
+                        ))
+                      }
+                  </CarrouselMui>
+
+                  <CarrouselMui title='Front-end mentor'>
+                      {
+                        frontendmentorprojects.map(({id,name,description,img,url})=>(
                           <ProjectCard
                           key={id}
                           id={id}
