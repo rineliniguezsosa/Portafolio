@@ -162,5 +162,12 @@ export const frontendmentorprojects : projectProps[] = [
         description:'A user profile with social links, designed in a simple and modern way.',
         img:'/Portafolio/assets/images/socialinkspreview.jpg',
         url:'https://rineliniguezsosa.github.io/social-links-profile/'
+    },
+    {
+        id:6,
+        name:'Blog preview card',
+        description:'Blog preview card with attractive and functional design, responsive to devices.',
+        img:'/Portafolio/assets/images/blogcardpreview.jpg',
+        url:'https://rineliniguezsosa.github.io/blog-preview-card/'
     }
 ]
