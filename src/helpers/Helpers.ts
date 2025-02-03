@@ -95,6 +95,13 @@ export const reactnativeprojects: projectProps[]  = [
         description:'This is a simple repository to share context between elements using zustand',
         img:'',
         url:'https://github.com/rineliniguezsosa/contextapp'
+    },
+    {
+        id:2,
+        name:'Box model',
+        description:'React Native project showcasing the Box Model with padding, margin, border, and position for responsive layouts.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/box-model-react-native'
     }
 
 ]
