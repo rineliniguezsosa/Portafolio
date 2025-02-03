@@ -109,6 +109,13 @@ export const reactnativeprojects: projectProps[]  = [
         description:'This repository shows you all the react-native components',
         img:'',
         url:'https://github.com/rineliniguezsosa/components-react-native'
+    },
+    {
+        id:4,
+        name:'Products app',
+        description:'ProductsApp is an app that includes product management, navigation, authentication and protected routes with a modern interface',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/productsapp'
     }
 
 ]
@@ -127,5 +134,12 @@ export const frontendmentorprojects : projectProps[] = [
         description:'A web app to track IP addresses, displaying location, ISP, and map data in real-time.',
         img:'/Portafolio/assets/images/ipaddresspreview.jpg',
         url:'https://rineliniguezsosa.github.io/ip-address-tracker/'
-    }
+    },
+    // {
+    //     id:2,
+    //     name:'My social links profile',
+    //     description:'A web app to track IP addresses, displaying location, ISP, and map data in real-time.',
+    //     img:'/Portafolio/assets/images/ipaddresspreview.jpg',
+    //     url:'https://rineliniguezsosa.github.io/social-links-profile/'
+    // }
 ]
