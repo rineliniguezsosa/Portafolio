@@ -155,5 +155,12 @@ export const frontendmentorprojects : projectProps[] = [
         description:'A recipe page with a clean, accessible layout to display ingredients and instructions.',
         img:'/Portafolio/assets/images/recipepagepreview.jpg',
         url:'https://rineliniguezsosa.github.io/recipe-page/'
+    },
+    {
+        id:5,
+        name:'Social links profile',
+        description:'A user profile with social links, designed in a simple and modern way.',
+        img:'/Portafolio/assets/images/socialinkspreview.jpg',
+        url:'https://rineliniguezsosa.github.io/social-links-profile/'
     }
 ]
