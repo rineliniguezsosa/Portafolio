@@ -112,3 +112,13 @@ export const reactnativeprojects: projectProps[]  = [
     }
 
 ]
+
+export const frontendmentorprojects : projectProps[] = [
+    {
+        id:0,
+        name:'App countries',
+        description:'A React app using the REST Countries API to display country data with a light/dark theme switcher and responsive design..',
+        img:'/Portafolio/assets/images/appcountriespreview.jpg',
+        url:'https://rineliniguezsosa.github.io/'
+    }
+]
