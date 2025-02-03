@@ -1,4 +1,4 @@
-import { workhistoryprops } from '../types/interfaces';
+import { workhistoryprops,projectProps, TestimonialCardProps } from '../types/interfaces';
 
 export const Workhistory: workhistoryprops[] = [
     {
@@ -43,7 +43,7 @@ export const Workhistory: workhistoryprops[] = [
     }
 ]
 
-export const Testimonials  = [
+export const Testimonials: TestimonialCardProps[]  = [
     {
         id:0,
         name:'Juan Roberto',
@@ -81,7 +81,7 @@ export const Testimonials  = [
     }
 ]
 
-export const reactnativeprojects  = [
+export const reactnativeprojects: projectProps[]  = [
     {
         id:0,
         name:'Navigation in React Native',
