@@ -140,6 +140,13 @@ export const frontendmentorprojects : projectProps[] = [
         name:'Four card feature section',
         description:'Four Card Feature Section" es un diseño web responsivo de cuatro tarjetas usando Flexbox y CSS Grid.',
         img:'/Portafolio/assets/images/fourcardpreview.jpg',
-        url:'https://github.com/rineliniguezsosa/four-card-feature-section'
+        url:'https://rineliniguezsosa.github.io/four-card-feature-section/'
+    },
+    {
+        id:3,
+        name:'Product preview card component',
+        description:'A responsive, interactive product preview card component.',
+        img:'/Portafolio/assets/images/productpreview.jpg',
+        url:'https://rineliniguezsosa.github.io/product-preview-card-component/'
     }
 ]
