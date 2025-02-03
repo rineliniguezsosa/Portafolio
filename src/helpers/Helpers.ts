@@ -88,5 +88,13 @@ export const reactnativeprojects: projectProps[]  = [
         description:'This is a repository to work on all react native navigations',
         img:'',
         url:'https://github.com/rineliniguezsosa/navigation-react-native'
+    },
+    {
+        id:1,
+        name:'Context app',
+        description:'This is a simple repository to share context between elements using zustand',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/contextapp'
     }
+
 ]
