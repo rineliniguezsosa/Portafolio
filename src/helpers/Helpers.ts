@@ -135,11 +135,11 @@ export const frontendmentorprojects : projectProps[] = [
         img:'/Portafolio/assets/images/ipaddresspreview.jpg',
         url:'https://rineliniguezsosa.github.io/ip-address-tracker/'
     },
-    // {
-    //     id:2,
-    //     name:'My social links profile',
-    //     description:'A web app to track IP addresses, displaying location, ISP, and map data in real-time.',
-    //     img:'/Portafolio/assets/images/ipaddresspreview.jpg',
-    //     url:'https://rineliniguezsosa.github.io/social-links-profile/'
-    // }
+    {
+        id:2,
+        name:'Four card feature section',
+        description:'Four Card Feature Section" es un diseño web responsivo de cuatro tarjetas usando Flexbox y CSS Grid.',
+        img:'/Portafolio/assets/images/fourcardpreview.jpg',
+        url:'https://github.com/rineliniguezsosa/four-card-feature-section'
+    }
 ]
