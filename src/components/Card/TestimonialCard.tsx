@@ -10,7 +10,7 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
         backgroundColor:'#080808',
         display:'flex',
         flexDirection:'column',
-        alignItems:'stretch',
+        justifyContent:'space-between',
         paddingX:2,
         borderRightWidth:0
       }} 
