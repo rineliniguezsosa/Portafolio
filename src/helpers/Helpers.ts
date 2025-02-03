@@ -119,6 +119,13 @@ export const frontendmentorprojects : projectProps[] = [
         name:'App countries',
         description:'A React app using the REST Countries API to display country data with a light/dark theme switcher and responsive design..',
         img:'/Portafolio/assets/images/appcountriespreview.jpg',
-        url:'https://rineliniguezsosa.github.io/'
+        url:'https://rineliniguezsosa.github.io/appcountries/'
+    },
+    {
+        id:1,
+        name:'Ip address tracker',
+        description:'A web app to track IP addresses, displaying location, ISP, and map data in real-time.',
+        img:'/Portafolio/assets/images/ipaddresspreview.jpg',
+        url:'https://rineliniguezsosa.github.io/ip-address-tracker/'
     }
 ]
