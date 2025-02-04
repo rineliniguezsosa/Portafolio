@@ -243,4 +243,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React-router-v6'
     },
+    {
+        id:9,
+        name:'Custom hooks',
+        description:'Project with custom hooks in React, demonstrating good practices and reuse.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Custom-hooks'
+    },
 ]
