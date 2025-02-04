@@ -287,4 +287,11 @@ export const Mernprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/token-authentication'
     },
+    {
+        id:1,
+        name:'Google authentication',
+        description:'Project with React TypeScript for authentication with Google Auth, connecting from the front-end to the backend.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/google-auth'
+    },
 ]
