@@ -192,6 +192,10 @@ function App() {
             </div>
 
         </section>
+
+        <section id='certificates'>
+
+        </section>
     </main>
   )
 }
