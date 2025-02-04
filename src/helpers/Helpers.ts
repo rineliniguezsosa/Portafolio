@@ -215,4 +215,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React-styled-component'
     },
+    {
+        id:5,
+        name:'React testing',
+        description:'Repository with tests and notes on Jest and React Testing Library for React applications.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React-testing'
+    },
 ]
