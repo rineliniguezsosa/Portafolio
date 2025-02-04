@@ -7,7 +7,8 @@ import {
   Workhistory,
   frontendmentorprojects,
   reactnativeprojects,
-  reactprojects
+  reactprojects,
+  typescriptprojects
 } from './helpers';
 
 
@@ -159,6 +160,21 @@ function App() {
                         reactprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
                           key={`reactjs-${id}-${index}`}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
+                        ))
+                      }
+                  </CarrouselMui>
+
+                  <CarrouselMui title='Typescript'>
+                      {
+                        typescriptprojects.map(({id,name,description,img,url}, index)=>(
+                          <ProjectCard
+                          key={`typescript-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
