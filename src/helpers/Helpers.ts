@@ -194,4 +194,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/Material-ui'
     },
+    {
+        id:2,
+        name:'React typescript',
+        description:'Repository that documents React hooks using TypeScript.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React-typescript'
+    },
 ]
