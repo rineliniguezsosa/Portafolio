@@ -9,7 +9,8 @@ import {
   reactnativeprojects,
   reactprojects,
   typescriptprojects,
-  backendprojects
+  backendprojects,
+  Mernprojects
 } from './helpers';
 
 
@@ -191,6 +192,21 @@ function App() {
                         backendprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
                           key={`Backend-${id}-${index}`}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
+                        ))
+                      }
+                  </CarrouselMui>
+
+                  <CarrouselMui title='Mern'>
+                      {
+                        Mernprojects.map(({id,name,description,img,url}, index)=>(
+                          <ProjectCard
+                          key={`mern-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
