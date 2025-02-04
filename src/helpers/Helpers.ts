@@ -229,4 +229,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/Practicando-react'
     },
+    {
+        id:7,
+        name:'React formik',
+        description:'React project with Formik to manage forms efficiently and flexibly.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React--formik'
+    },
 ]
