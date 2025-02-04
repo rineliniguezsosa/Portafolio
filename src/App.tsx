@@ -8,7 +8,8 @@ import {
   frontendmentorprojects,
   reactnativeprojects,
   reactprojects,
-  typescriptprojects
+  typescriptprojects,
+  backendprojects
 } from './helpers';
 
 
@@ -175,6 +176,21 @@ function App() {
                         typescriptprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
                           key={`typescript-${id}-${index}`}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
+                        ))
+                      }
+                  </CarrouselMui>
+
+                  <CarrouselMui title='Backend'>
+                      {
+                        backendprojects.map(({id,name,description,img,url}, index)=>(
+                          <ProjectCard
+                          key={`Backend-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
