@@ -201,4 +201,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React-typescript'
     },
+    {
+        id:3,
+        name:'React-js',
+        description:'Repository with examples of React.js, Redux and Hooks, including counter applications and hero management',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React-js'
+    },
 ]
