@@ -178,3 +178,13 @@ export const frontendmentorprojects : projectProps[] = [
         url:'https://rineliniguezsosa.github.io/qr-code-component/'
     }
 ]
+
+export const reactprojects: projectProps[] = [
+    {
+        id:0,
+        name:'Portfolio',
+        description:'Personal portfolio developed with React, TypeScript and TailwindCSS to show projects and skills.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Portafolio'
+    },
+]
