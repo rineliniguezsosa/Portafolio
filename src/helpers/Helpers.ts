@@ -251,3 +251,13 @@ export const reactprojects: projectProps[] = [
         url:'https://github.com/rineliniguezsosa/Custom-hooks'
     },
 ]
+
+export const typescriptprojects = [
+    {
+        id:0,
+        name:'Typescript',
+        description:'Project of TypeScript with examples and basic configurations to start in el lenguaje.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/typescript'
+    },
+]
