@@ -208,4 +208,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React-js'
     },
+    {
+        id:4,
+        name:'React styled component',
+        description:'React project with Styled Components to design interfaces with dynamic and reusable styles.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React-styled-component'
+    },
 ]
