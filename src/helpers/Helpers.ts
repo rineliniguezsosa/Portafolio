@@ -278,3 +278,13 @@ export const backendprojects : projectProps[] = [
         url:'https://github.com/rineliniguezsosa/bookmanagementapi'
     },
 ]
+
+export const Mernprojects: projectProps[] = [
+    {
+        id:0,
+        name:'Token authentication',
+        description:'Authentication with tokens in Node.js, TypeScript and Express, managing secure sessions with JWT.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/token-authentication'
+    },
+]
