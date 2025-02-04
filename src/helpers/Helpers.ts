@@ -252,12 +252,22 @@ export const reactprojects: projectProps[] = [
     },
 ]
 
-export const typescriptprojects = [
+export const typescriptprojects: projectProps[] = [
     {
         id:0,
         name:'Typescript',
         description:'Project of TypeScript with examples and basic configurations to start in el lenguaje.',
         img:'',
         url:'https://github.com/rineliniguezsosa/typescript'
+    },
+]
+
+export const backendprojects : projectProps[] = [
+    {
+        id:0,
+        name:'Api rest crud',
+        description:'This repository contains a REST CRUD API developed with Node.js, Express and MongoDB.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Api-rest-crud'
     },
 ]
