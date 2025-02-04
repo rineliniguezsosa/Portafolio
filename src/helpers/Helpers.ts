@@ -270,4 +270,11 @@ export const backendprojects : projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/Api-rest-crud'
     },
+    {
+        id:1,
+        name:'Book management api',
+        description:'API for book management with Node.js,Express,TypeScript and Sqlserver,using TypeORM for the BD.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/bookmanagementapi'
+    },
 ]
