@@ -222,4 +222,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React-testing'
     },
+    {
+        id:6,
+        name:'Practicing react',
+        description:'Projects in React to practice basic and advanced web development concepts with React.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Practicando-react'
+    },
 ]
