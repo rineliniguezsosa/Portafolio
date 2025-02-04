@@ -126,9 +126,9 @@ function App() {
 
                   <CarrouselMui title='React native'>
                       {
-                        reactnativeprojects.map(({id,name,description,img,url})=>(
+                        reactnativeprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
-                          key={id}
+                          key={`reactnative-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
@@ -141,9 +141,9 @@ function App() {
 
                   <CarrouselMui title='Front-end mentor'>
                       {
-                        frontendmentorprojects.map(({id,name,description,img,url})=>(
+                        frontendmentorprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
-                          key={id}
+                          key={`frontendmentor-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
@@ -156,9 +156,9 @@ function App() {
 
                   <CarrouselMui title='Reactjs'>
                       {
-                        reactprojects.map(({id,name,description,img,url})=>(
+                        reactprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
-                          key={id}
+                          key={`reactjs-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
