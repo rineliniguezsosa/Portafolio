@@ -236,4 +236,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/React--formik'
     },
+    {
+        id:8,
+        name:'React router v6',
+        description:'React project with React Router v6 to manage routes and navigation in a web app.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/React-router-v6'
+    },
 ]
