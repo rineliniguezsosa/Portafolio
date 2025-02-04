@@ -187,4 +187,11 @@ export const reactprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/Portafolio'
     },
+    {
+        id:1,
+        name:'Material ui',
+        description:'This project documents and practices key components of Material-UI in web applications',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Material-ui'
+    },
 ]
