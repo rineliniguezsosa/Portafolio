@@ -10,7 +10,8 @@ import {
   reactprojects,
   typescriptprojects,
   backendprojects,
-  Mernprojects
+  Mernprojects,
+  jsprojects
 } from './helpers';
 import { AwardLink } from './components/shared/AwardLink';
 
@@ -208,6 +209,21 @@ function App() {
                         Mernprojects.map(({id,name,description,img,url}, index)=>(
                           <ProjectCard
                           key={`mern-${id}-${index}`}
+                          id={id}
+                          name={name}
+                          description={description}
+                          img={img}
+                          url={url}
+                          />
+                        ))
+                      }
+                  </CarrouselMui>
+
+                  <CarrouselMui title='javascript'>
+                      {
+                        jsprojects.map(({id,name,description,img,url}, index)=>(
+                          <ProjectCard
+                          key={`js-${id}-${index}`}
                           id={id}
                           name={name}
                           description={description}
