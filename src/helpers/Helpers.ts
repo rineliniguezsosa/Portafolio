@@ -301,5 +301,12 @@ export const Mernprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/chat'
     },
+    {
+        id:4,
+        name:'Mern-nodejs-and-React',
+        description:'MERN project integrating MongoDB, Express, React and Node.js for a complete web application',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Mern-nodejs-and-React'
+    },
 
 ]
