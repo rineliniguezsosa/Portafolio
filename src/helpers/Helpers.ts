@@ -294,4 +294,12 @@ export const Mernprojects: projectProps[] = [
         img:'',
         url:'https://github.com/rineliniguezsosa/google-auth'
     },
+    {
+        id:3,
+        name:'Chat',
+        description:'Chat application to communicate the frontend with the backend',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/chat'
+    },
+
 ]
