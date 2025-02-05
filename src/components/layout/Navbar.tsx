@@ -27,9 +27,12 @@ export const Navbar = () => {
       </IconButton>
 
 
-      {/* <div className='px-2 py-2'>
-        <div className='text-white font-ibm-plex-mono text-lg'>R</div>
-      </div> */}
+      <a 
+        href='/Portafolio/file/cv_rinel_iniguez_sosa.pdf' 
+        download='cv_rinel_iniguez_sosa.pdf' 
+        className='px-2 py-2 bg-[#3F8E00] rounded-full text-white text-xs font-ibm-plex-mono'>
+        download cv
+      </a> 
 
 
        <Drawer
