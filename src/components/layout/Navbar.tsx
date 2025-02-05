@@ -74,6 +74,12 @@ export const Navbar = () => {
                 title="Projects"
               />
 
+              <NavLink
+                onClick={closeDrawer} 
+                location='#certificates' 
+                title="Certificates"
+              />
+
 
               </div>
             </nav>
