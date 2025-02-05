@@ -310,3 +310,14 @@ export const Mernprojects: projectProps[] = [
     },
 
 ]
+
+export const jsprojects: projectProps[] = [
+    {
+        id:0,
+        name:'Practicing javascript',
+        description:'Repository with practical projects in JavaScript, such as color palette, counter and random carousel.',
+        img:'',
+        url:'https://github.com/rineliniguezsosa/Practicando-Javascript'
+    },
+
+]
