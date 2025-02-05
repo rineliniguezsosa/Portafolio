@@ -27,8 +27,9 @@ export default {
             darkgray:'#9C9C9C',
             blue:'#0d9aff',
             white:'#FFFFFF',
-            green:'3F8E00',
-            greenlight:'62BA1B'
+            green:'#3F8E00',
+            greenlight:'#62BA1B',
+            yellow:'#ffa217'
         },
         screen:{
             'sm': "640px", // Dispositivos móviles grandes
