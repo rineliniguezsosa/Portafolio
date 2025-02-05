@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 // import React from 'react';
 import { ButtonProps } from "@mui/material";
 
@@ -45,3 +46,5 @@ export interface CarrouselMuiProps {
 export interface projectProps extends Omit<TestimonialCardProps,"position"> {
   url:string
 }
+
+export interface AwardLinkProps extends Omit<NavLinkProps,"onClick">{}
