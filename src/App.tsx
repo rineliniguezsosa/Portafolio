@@ -1,5 +1,6 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import { Navbar } from './components/layout/Navbar';
 import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard } from './components';
 import { 
@@ -225,8 +226,27 @@ function App() {
 
         </section>
 
-        <section id='certificates'>
-
+        <section id='certificates' className='w-full bg-dark'>
+          <div className='w-full py-20 flex flex-col gap-5 items-center'>
+              <div className='w-3/4'>
+                <h2 className='text-2xl font-raleway font-bold text-white'>Certificates</h2>
+              </div> 
+              <div className='w-3/4'>
+                  <div className='flex flex-row items-center'>
+                    <div>
+                      <EmojiEventsIcon className='text-yellow'/>
+                    </div>
+                    <div>
+                      <a
+                        className='text-white pl-2 font-ibm-plex-mono font-bold text-sm'
+                        target='_blank'
+                        href="https://tutorial-sql.s3.amazonaws.com/certificates/41727_Rinel_I%C3%B1iguez/41727_01122024.png">
+                          interactive sql
+                      </a>
+                    </div>
+                  </div>
+              </div> 
+          </div>
         </section>
     </main>
   )
