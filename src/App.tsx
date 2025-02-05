@@ -49,7 +49,7 @@ function App() {
               "Always looking to improve and deliver continuous results, contact me or discover my projects"
               </p>
               <ButtonMui
-                href="#"
+                href="#projects"
                 endIcon={<KeyboardArrowRightOutlinedIcon />}
                 className='text-white'
                 variant='contained'
