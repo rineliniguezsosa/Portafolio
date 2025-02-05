@@ -1,6 +1,5 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import { Navbar } from './components/layout/Navbar';
 import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard } from './components';
 import { 
@@ -13,6 +12,7 @@ import {
   backendprojects,
   Mernprojects
 } from './helpers';
+import { AwardLink } from './components/shared/AwardLink';
 
 
 function App() {
@@ -232,19 +232,26 @@ function App() {
                 <h2 className='text-2xl font-raleway font-bold text-white'>Certificates</h2>
               </div> 
               <div className='w-3/4'>
-                  <div className='flex flex-row items-center'>
-                    <div>
-                      <EmojiEventsIcon className='text-yellow'/>
-                    </div>
-                    <div>
-                      <a
-                        className='text-white pl-2 font-ibm-plex-mono font-bold text-sm'
-                        target='_blank'
-                        href="https://tutorial-sql.s3.amazonaws.com/certificates/41727_Rinel_I%C3%B1iguez/41727_01122024.png">
-                          interactive sql
-                      </a>
-                    </div>
-                  </div>
+                  <AwardLink
+                    location='https://tutorial-sql.s3.amazonaws.com/certificates/41727_Rinel_I%C3%B1iguez/41727_01122024.png'
+                    title='interactive sql'
+                  />
+                  <AwardLink
+                    location='https://www.udemy.com/certificate/UC-df70df56-8b23-4e11-be94-f0a2eb64321b/'
+                    title='TypeScript: Your complete guide and handbook.'
+                  />
+                  <AwardLink
+                    location='https://www.udemy.com/certificate/UC-50f8746a-eec8-44b8-9cda-2c29b6edf6b5/'
+                    title='Web development. JavaScript from scratch. 2018-2019 Edition'
+                  />
+                  <AwardLink
+                    location='https://www.udemy.com/certificate/UC-32522d56-5eed-4451-9b68-61bff10b8535/'
+                    title='Git Fundamentals in Cloud'
+                  />
+                  <AwardLink
+                    location='https://www.sololearn.com/Certificate/CT-8CBMYR70/jpg'
+                    title='Javascript'
+                  />
               </div> 
           </div>
         </section>
