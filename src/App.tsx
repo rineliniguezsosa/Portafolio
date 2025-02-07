@@ -1,7 +1,7 @@
 import { ButtonMui } from './components/buttons/ButtonMui'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import { Navbar } from './components/layout/Navbar';
-import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard } from './components';
+import { TimelineMui,CarrouselMui, TestimonialCard,ProjectCard, FloatingWhatsapp } from './components';
 import { 
   Testimonials, 
   Workhistory,
@@ -14,7 +14,6 @@ import {
   jsprojects
 } from './helpers';
 import { AwardLink } from './components/shared/AwardLink';
-
 
 function App() {
   return (
@@ -277,6 +276,12 @@ function App() {
           <p className='text-darkgray text-xs font-ibm-plex-mono'>Mail contact: rineliniguezsosa@gmail.com</p>
           <p className='text-darkgray text-xs font-ibm-plex-mono'>Phone number: +52 9999-08-63-84</p>
         </footer>
+
+        <FloatingWhatsapp
+          accountName="Rinel"
+          phoneNumber="+529999086384"
+          avatar='/Portafolio/assets/images/rinelfoto.jpg'
+        />
     </main>
   )
 }
