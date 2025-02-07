@@ -52,5 +52,7 @@ export interface AwardLinkProps extends Omit<NavLinkProps,"onClick">{}
 export interface Whatsappprops {
    accountName:string,
    phoneNumber:string,
-   avatar:string
+   avatar:string,
+   statusMessage:string,
+   chatMessage:string
 }
