@@ -48,3 +48,7 @@ export interface projectProps extends Omit<TestimonialCardProps,"position"> {
 }
 
 export interface AwardLinkProps extends Omit<NavLinkProps,"onClick">{}
+
+export interface Whatsappprops {
+   phoneNumber:string
+}
