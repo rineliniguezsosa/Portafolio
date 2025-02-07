@@ -43,12 +43,3 @@ To start the development server and see the application in action, run:
 ```bash
 npm run dev
 ```
-fontStyle: {
-              'thin-italic': ['100', 'italic'],
-              'extralight-italic': ['200', 'italic'],
-              'light-italic': ['300', 'italic'],
-              'regular-italic': ['400', 'italic'],
-              'medium-italic': ['500', 'italic'],
-              'semibold-italic': ['600', 'italic'],
-              'bold-italic': ['700', 'italic'],
-            }
