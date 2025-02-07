@@ -1,10 +1,13 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Whatsappprops } from '../../types/interfaces'
 
-export const FloatingWhatsapp = ({phoneNumber}:Whatsappprops) => {
+export const FloatingWhatsapp = ({accountName,phoneNumber,avatar,...props}:Whatsappprops) => {
   return (
     <FloatingWhatsApp
-      phoneNumber={phoneNumber}
+    {...props}
+    accountName={accountName} 
+    phoneNumber={phoneNumber} 
+    avatar={avatar}
     />
   )
 }
