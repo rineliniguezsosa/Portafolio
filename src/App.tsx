@@ -281,6 +281,8 @@ function App() {
           accountName="Rinel"
           phoneNumber="+529999086384"
           avatar='/Portafolio/assets/images/rinelfoto.jpg'
+          statusMessage='For a more rapid and effective response, please send me a message with clear details.'
+          chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
         />
     </main>
   )
