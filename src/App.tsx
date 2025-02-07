@@ -273,7 +273,7 @@ function App() {
         </section>
 
         <footer className="bg-dark-600 py-10 px-5 text-center">
-          <p className='text-darkgray text-xs font-ibm-plex-mono'>Made by: Rinel Iñiguez.</p>
+          <p className='text-darkgray text-xs font-ibm-plex-mono'>Made by: Rinel Iñiguez. ⚛️💻🖤</p>
           <p className='text-darkgray text-xs font-ibm-plex-mono'>Mail contact: rineliniguezsosa@gmail.com</p>
           <p className='text-darkgray text-xs font-ibm-plex-mono'>Phone number: +52 9999-08-63-84</p>
         </footer>
