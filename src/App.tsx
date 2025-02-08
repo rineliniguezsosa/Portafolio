@@ -18,16 +18,16 @@ import { useEffect,useState } from 'react';
 
 function App() {
 
-   const [allowSound, setAllowSound] = useState(false);
-    const permissionSound = async() =>{
+   const [allowpermitions, setAllnotifications] = useState(false);
+    const permissionNotification = async() =>{
       if("Notification" in window){
         const permission = await Notification.requestPermission();
-        setAllowSound(permission === 'granted')
+        setAllnotifications(permission === 'granted')
       }
     }
   
     useEffect(() => {
-       permissionSound()
+       permissionNotification()
     }, []);
   return (
     <main className='w-full'>
@@ -297,7 +297,7 @@ function App() {
           statusMessage='For a more rapid and effective response, please send me a message with clear details.'
           chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
           notification
-          notificationSound={allowSound}
+          notificationSound={allowpermitions}
           notificationDelay={60000}
           notificationLoop={2}
         />
