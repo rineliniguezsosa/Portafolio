@@ -14,22 +14,13 @@ import {
   jsprojects
 } from './helpers';
 import { AwardLink } from './components/shared/AwardLink';
-import { useEffect,useState } from 'react';
+import { usePermissionHandler } from './hooks';
+
 
 function App() {
 
-   const [allowpermitions, setAllnotifications] = useState(false);
-    const permissionNotification = async() =>{
-      if("Notification" in window){
-        const permission = await Notification.requestPermission();
-
-        if(permission === 'granted') {setAllnotifications(true)}
-      }
-    }
+  const allowpermitions = usePermissionHandler();
   
-    useEffect(() => {
-       permissionNotification()
-    }, []);
   return (
     <main className='w-full'>
         <section id='aboutme' className='w-full'>
