@@ -288,7 +288,7 @@ function App() {
           avatar='/Portafolio/assets/images/rinelfoto.jpg'
           statusMessage='For a more rapid and effective response, please send me a message with clear details.'
           chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
-          notification
+          notification={allowpermitions}
           notificationSound={allowpermitions}
           notificationDelay={60}
           notificationLoop={2}
