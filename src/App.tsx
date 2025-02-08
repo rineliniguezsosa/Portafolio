@@ -14,8 +14,26 @@ import {
   jsprojects
 } from './helpers';
 import { AwardLink } from './components/shared/AwardLink';
+import { useEffect,useState } from 'react';
 
 function App() {
+
+   const [allowSound, setAllowSound] = useState(false);
+    const permissionSound = async() =>{
+      try{
+        const { active } = await navigator.mediaDevices.getUserMedia({audio:true})
+
+        if (active) setAllowSound(true)
+        
+      }catch{
+        console.log('no se permitierón los usos de audio');
+        setAllowSound(false)
+      }
+    }
+  
+    useEffect(() => {
+       permissionSound()
+    }, []);
   return (
     <main className='w-full'>
         <section id='aboutme' className='w-full'>
@@ -283,6 +301,10 @@ function App() {
           avatar='/Portafolio/assets/images/rinelfoto.jpg'
           statusMessage='For a more rapid and effective response, please send me a message with clear details.'
           chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
+          notification
+          notificationSound={allowSound}
+          notificationDelay={2}
+          notificationLoop={5}
         />
     </main>
   )
