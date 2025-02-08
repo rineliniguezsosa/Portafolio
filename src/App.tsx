@@ -19,7 +19,7 @@ import { usePermissionHandler } from './hooks';
 
 function App() {
 
-  const allowpermitions = usePermissionHandler();
+  const { allowpermitions } = usePermissionHandler();
   
   return (
     <main className='w-full'>
