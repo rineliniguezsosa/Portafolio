@@ -303,8 +303,8 @@ function App() {
           chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
           notification
           notificationSound={allowSound}
-          notificationDelay={2}
-          notificationLoop={5}
+          notificationDelay={60000}
+          notificationLoop={2}
         />
     </main>
   )
