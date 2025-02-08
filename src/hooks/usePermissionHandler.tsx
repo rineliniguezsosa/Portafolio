@@ -15,5 +15,5 @@ export const usePermissionHandler = () =>{
        permissionNotification()
     }, []);
 
-    return allowpermitions
+    return { allowpermitions }
 }
