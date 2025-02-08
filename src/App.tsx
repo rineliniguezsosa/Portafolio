@@ -22,7 +22,8 @@ function App() {
     const permissionNotification = async() =>{
       if("Notification" in window){
         const permission = await Notification.requestPermission();
-        setAllnotifications(permission === 'granted')
+
+        if(permission === 'granted') {setAllnotifications(true)}
       }
     }
   
@@ -298,7 +299,7 @@ function App() {
           chatMessage="Hello! 😊 How can I help? Write to me, and I'll reply soon."
           notification
           notificationSound={allowpermitions}
-          notificationDelay={60000}
+          notificationDelay={60}
           notificationLoop={2}
         />
     </main>
