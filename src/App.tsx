@@ -20,14 +20,9 @@ function App() {
 
    const [allowSound, setAllowSound] = useState(false);
     const permissionSound = async() =>{
-      try{
-        const { active } = await navigator.mediaDevices.getUserMedia({audio:true})
-
-        if (active) setAllowSound(true)
-        
-      }catch{
-        console.log('no se permitierón los usos de audio');
-        setAllowSound(false)
+      if("Notification" in window){
+        const permission = await Notification.requestPermission();
+        setAllowSound(permission === 'granted')
       }
     }
   
