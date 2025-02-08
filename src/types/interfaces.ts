@@ -54,5 +54,9 @@ export interface Whatsappprops {
    phoneNumber:string,
    avatar:string,
    statusMessage:string,
-   chatMessage:string
+   chatMessage:string,
+   notification:boolean,
+   notificationSound:boolean,
+   notificationDelay:number
+   notificationLoop:number,
 }
