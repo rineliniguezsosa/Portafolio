@@ -12,7 +12,8 @@ export const TestimonialCard = ({id,name,description,img,position}:TestimonialCa
         flexDirection:'column',
         justifyContent:'space-between',
         paddingX:2,
-        borderRightWidth:0
+        borderRightWidth:0,
+        maxWidth:328
       }} 
        orientation="horizontal" 
        size="sm" 
