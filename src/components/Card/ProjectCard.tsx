@@ -13,6 +13,7 @@ export const ProjectCard = ({id,name,description,img,url}: projectProps) => {
           justifyContent:'space-between',
           backgroundColor:'#ffffff',
           paddingX:2,
+          maxWidth:328
         }} 
         key={id}
         orientation="horizontal" 
