@@ -76,7 +76,7 @@ function App() {
               <div className='w-3/4'>
                 <h2 className='text-2xl font-raleway font-bold text-dark'>Work experience</h2>
               </div>
-              <div className='w-full flex justify-center items-center'>
+              <div className='w-3/4 flex justify-center items-center'>
               <TimelineMui position='alternate' variant='outlined' experience={ Workhistory }/>
               </div>
             </div>
