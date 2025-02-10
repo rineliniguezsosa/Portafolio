@@ -27,15 +27,15 @@ function App() {
           <Navbar/>
           {/* inicio div */}
           <div
-          className='w-full flex flex-col gap-5 bg-dark items-center py-20 px-5'
+          className='w-full flex flex-col gap-5 bg-dark items-center py-20 px-5 lg:flex-row-reverse lg:px-20'
           >
 
             {/* imagen */}
             <div
               className='w-full max-w-[459px] h-[400px] flex items-center justify-center bg-cover bg-center
-             bg-patternmobile bg-no-repeat'>
+             bg-patternmobile bg-no-repeat lg:bg-none'>
                 <img
-                  className='w-1/2 max-w-[238px] rounded-xl'
+                  className='w-1/2 max-w-[238px] rounded-xl lg:rounded-full lg:w-3/5 lg:max-w-[350px]'
                   src="/Portafolio/assets/images/rinelfoto.jpg"
                   alt="rinel"
                 />
