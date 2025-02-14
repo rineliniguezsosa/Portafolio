@@ -31,7 +31,7 @@ export default {
             greenlight:'#62BA1B',
             yellow:'#ffa217'
         },
-        screen:{
+        screens:{
             'sm': "640px", // Dispositivos móviles grandes
             'md': "768px", // Tablets (iPad estándar, tablets Android)
             'lg':"1024px", //laptops pequeñas
