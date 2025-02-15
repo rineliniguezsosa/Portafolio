@@ -8,6 +8,9 @@ export const IconButtonMui = ({children,onClick,...props}:IconButtonProps) => {
         size='small'
         onClick={() => onClick('left')}
         {...props}
+        sx={{
+          display:{md:'block',xs:'none'}
+        }}
     >
         {children}
     </IconButton>
