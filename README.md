@@ -24,7 +24,7 @@ I built my personal portfolio using this free design and really enjoyed working 
 
 ## What I learned
 
-## Useful resource
+## Useful resources
 
 **DOM properties that I can access using useRef**
 
