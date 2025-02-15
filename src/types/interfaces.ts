@@ -60,3 +60,7 @@ export interface Whatsappprops {
    notificationDelay:number
    notificationLoop:number,
 }
+export interface IconButtonProps {
+   children:React.ReactNode,
+   onClick:() => void
+}
