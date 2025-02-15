@@ -9,6 +9,10 @@
 
 ## My process
 
+I built my personal portfolio using this free design and really enjoyed working on it. Although the original design only included a desktop version, I adapted the mobile version according to my own interpretation.
+
+[Free template here.](https://www.figma.com/design/z3M5BqF2oyqVzMk6Mtfb6c/%F0%9F%8E%A8-Personal-Portfolio-Template-(Community)?node-id=0-1&p=f&t=277MO06jE8a9wOFP-)
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -20,7 +24,8 @@
 
 ## What I learned
 
-## Useful resources
+## Useful resource
+
 **DOM properties that I can access using useRef**
 
 1. Style Properties (CSS): You can access and modify style properties directly through the reference.
@@ -96,7 +101,6 @@ Allows you to access and manipulate forms and their elements.
 - submit(): Submits the form programmatically.
 - elements: Accesses the elements within a form.
 
-**DOM properties that I can access using useRef**
 ## Author
 
 Rinel iñiguez sosa
