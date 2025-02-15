@@ -15,7 +15,6 @@ export const CarrouselMui = ({title,children}:CarrouselMuiProps) => {
         left:direction === 'left' ? -scrollAmount : scrollAmount,
         behavior: 'smooth',
       })
-      console.log(direction);
     }
   }
  
