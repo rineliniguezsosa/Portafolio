@@ -62,5 +62,5 @@ export interface Whatsappprops {
 }
 export interface IconButtonProps {
    children:React.ReactNode,
-   onClick:() => void
+   onClick:(direction:'left' | 'right') => void
 }
